@@ -14,21 +14,11 @@ p.dotted {
 border-style:dotted;
 }
 
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
  
 ol.b {
   list-style-type: lower-alpha;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 ul.a  {
   list-style-type: square;
