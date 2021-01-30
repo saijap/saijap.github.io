@@ -11,12 +11,13 @@ h1 {
 }
 
 .laatikko {
+  display:block;
   color:red;
   border-style:dotted;
-  backgroud-color:white;
-  border: 2px;
-  width:100px;
-  height:100px;
+  background-color:white;
+  border: 20px;
+  width:200px;
+  height:200px;
   }
 
 <p class="dotted">A dotted border.</p>
