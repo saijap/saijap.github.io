@@ -10,7 +10,12 @@ h1 {
  
 }
 
-#laatikko
+#laatikko {
+  color:red;
+  border-style:dotted;
+  border: 2px;
+  }
+
 p.dotted {
 border-style:dotted;
 border: 2px;
