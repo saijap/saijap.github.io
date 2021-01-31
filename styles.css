@@ -41,7 +41,7 @@ div.html-info {
 font-family: arial;
 font-size: 16px;
 color:black;
-position: static;
+position: absolute;
 right: 170px
 } 
 
