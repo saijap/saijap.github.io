@@ -15,6 +15,14 @@ p {
   color: green;
 }
 
+div.seemore {
+  position: static;
+  right: 370px;  
+  width: 160px;
+  height: 30px;
+  border: 3px double blue;
+  padding: 10px;
+} 
 
 div.html-info {
  width: 100px;
