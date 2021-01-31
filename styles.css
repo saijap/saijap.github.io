@@ -5,6 +5,10 @@ body  {
   background-size: 300px 100px;
  } 
  
+  h1 {
+  font-family: georgia;
+ }
+  
   h2 {
   font-family: arial;
   font-size: 20px;
