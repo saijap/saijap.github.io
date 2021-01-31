@@ -1,10 +1,9 @@
-<style>
+<style type="text/css">
  body {
   background-color: black;
   color: white;
 }
 
-<!--h1 element fontsize 20px  -->
 h1 {
   font-family: verdana;
   color: yellow;
@@ -12,7 +11,6 @@ h1 {
   font-size:20px;
 }
 
-<!--p element textcolor set green, fontsize 12 -->
 p {
   font-family: arial;
   font-size: 12px;
@@ -35,4 +33,3 @@ list-style-type: square;
  }
 
 </style>
-
