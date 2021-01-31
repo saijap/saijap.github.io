@@ -21,6 +21,7 @@ body  {
   color:black;
   background-color: LavenderBlush;
   border-radius: 5px;
+  width: 300px;
 }
   div.seemore {
   position: static;
