@@ -47,5 +47,6 @@ figcaption {
   color: black;
   font-style: italic;
   padding: 2px;
-  text-align: center;
+  text-align: left;
+   
 }
