@@ -1,27 +1,25 @@
- body {
-  background-color: mediumaquamarine;
-  color: white;
-}
-
-h1 {
-  font-family: verdana;
-  text-align: center;
-  font-size: 24px;
-}
-
- h2 {
+  body  {
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnuxoD3Ljz44S9nywRnGrNG4M51acp0PiLHg&usqp=CAU);
+ background-repeat: repeat-x;
+  background-size: 300px 100px;
+ } 
+ 
+  h2 {
   font-family: arial;
   font-size: 20px;
   color:black;
+  border-style: thin;
+  border-bottom: 2px solid darkgrey; padding: 5px;
+  border-left: 2px solid darkgrey; padding: 5px;
+  border-right: 2px solid darkgrey; padding: 5px;
+  border-top: 2px solid darkgrey; padding 5px;
 }
-
-p {
+  p {
   font-family: arial;
   font-size: 16px;
-  color: black;
+  color:black;
 }
-
-div.seemore {
+  div.seemore {
   position: static;
   right: 370px;  
   width: 160px;
@@ -29,20 +27,16 @@ div.seemore {
   border: 3px double blue;
   padding: 10px;
 } 
-
-
-div.html-info {
- width: 100px;
- height: 100px;
- border: 2px dotted blue;
-  }
-
 #editing-graphics {
 font-family: arial;
 font-size: 16px;
 color:black;
-position: initial;
+position: static;
 right: 170px
+} 
+
+div.basics{
+color: lime;
 } 
 
 figcaption {
@@ -52,11 +46,3 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
-
-ol.ordered-list {
-list-style-type: lower-alpha;
- }
-
-ul.unordered-list {
-list-style-type: square;
- }
