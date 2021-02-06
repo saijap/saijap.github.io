@@ -49,8 +49,16 @@ div.basics{
 color: lime;
 } 
 
+figure   {
+  position: absolute;
+  margin-top:1 em;
+  margint-top: 1 em;
+  margin-left: 20 px;
+  margin-right: 20 px;
+    } 
+
 figcaption {
-  background-color: white;
+  background-color: grey;
   color: black;
   font-style: italic;
   padding: 2px;
