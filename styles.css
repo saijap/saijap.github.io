@@ -2,14 +2,16 @@
 body  {
  background-color: #a1ceb5;
  background-position: right bottom
+ background-image: url (https://images.pexels.com/photos/262212/pexels-photo-262212.jpeg?cs=srgb&dl=pexels-pixabay-262212.jpg&fm=jpg);
+ background-repeat: repeat-x;
  background-size: 200px 100px;
  } 
  
 /* Style the header */
 header {
-  background-color: #6b6b6b; 
-  background-image: url (https://images.pexels.com/photos/262212/pexels-photo-262212.jpeg?cs=srgb&dl=pexels-pixabay-262212.jpg&fm=jpg);
-  background-repeat: repeat-x;
+  background-color: #6b6b6b;
+ background-image: url (https://images.pexels.com/photos/675267/pexels-photo-675267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  opacity: 0.3;
   padding: 20px;
   text-align: center;
   font-size: 35px;
