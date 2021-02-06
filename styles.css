@@ -54,7 +54,7 @@ ul {
   }
 
 div.Cities {
-position: sticky; 
+float: left; 
 }
 
 div.seemore {
