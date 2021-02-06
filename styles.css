@@ -50,10 +50,10 @@ color: lime;
 } 
 
 figure   {
-  position: absolute;
+  position: display;
   margin-top:1 em;
   margint-top: 1 em;
-  margin-left: 20 px;
+  margin-left: 200 px;
   margin-right: 20 px;
     } 
 
