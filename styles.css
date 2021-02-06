@@ -65,4 +65,12 @@ figcaption {
   text-align: left;
   width:200px; 
 }
+/*Navigaatiopalkki
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
 
