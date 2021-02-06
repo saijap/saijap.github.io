@@ -45,6 +45,17 @@ header {
   border: 3px double blue;
   padding: 10px;
 } 
+
+div.unordered-list {
+  position: right;
+  right: 370px;  
+  width: 160px;
+  height: 30px;
+  border: 3px double blue;
+  padding: 10px;
+} 
+
+
 #editing-graphics {
 font-family: arial;
 font-size: 16px;
