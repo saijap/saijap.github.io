@@ -7,7 +7,7 @@ body  {
  
 /* Style the header */
 header {
-  background-color: LavenderBlush;
+  background-color: #a1ceb5;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -32,7 +32,7 @@ header {
   font-family: arial;
   font-size: 16px;
   color:black;
-  background-color: LavenderBlush;
+  background-color: #a1ceb5;
   border-radius: 5px;
   width: 300px;
   padding: 10px; 
