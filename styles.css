@@ -60,6 +60,9 @@ div.Reitinpituus {
   float: right;
  } 
 
+div.Puistot  {
+  float: right;
+ } 
 div.seemore {
   position: right;
   right: 370px;  
