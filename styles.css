@@ -25,7 +25,7 @@ header {
   font-family: georgia;
  }
  
-/*H2ssa on laatikot, 
+/*H2ssa on laatikot,*/ 
   h2 {
   font-family: arial;
   font-size: 20px;
@@ -37,17 +37,18 @@ header {
   border-top: 2px solid darkgrey; padding: 5px;
   width: 300px;
 }
+
   p {
   font-family: arial;
   font-size: 16px;
   color:black;
-  
-}
+  }
+
 div.Cities {
-position:sticky; 
+position: sticky; 
 }
 
-  div.seemore {
+div.seemore {
   position: right;
   right: 370px;  
   width: 160px;
@@ -58,7 +59,7 @@ position:sticky;
 
 div.kaupunkilistaus {
   position: right;
-  right: 370px;  
+  right: 20px;  
   width: 160px;
   height: 30px;
   border: 3px double blue;
@@ -66,18 +67,24 @@ div.kaupunkilistaus {
  } 
 
 
-#editing-graphics {
-font-family: arial;
-font-size: 16px;
-color:black;
-position: static;
-right: 170px
-} 
+/*Navigaatiopalkki
+nav {
+  float: left;
+  width: 100%;
+  height: 200px; /* only for demonstration, should be removed */
+  background: #15281e;
+  padding: 40px;
+}
 
-div.basics{
-color: lime;
-} 
+/*Footerpalkin koko
+footer {
+width: 100%;
+height: 100 px;
+}
 
+
+
+/*Secondhtml css-asetuksia */
 div.metsäkuvat   {
   position: right;
   margin-top:1 em;
@@ -94,17 +101,11 @@ figcaption {
   text-align: left;
   width:200px; 
 }
-/*Navigaatiopalkki
-nav {
-  float: left;
-  width: 100%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #15281e;
-  padding: 40px;
-}
 
-/*Footerpalkin koko
-footer {
-width: 100%;
-height: 100 px;
-}
+#editing-graphics {
+font-family: arial;
+font-size: 16px;
+color:black;
+position: static;
+right: 170px
+} 
