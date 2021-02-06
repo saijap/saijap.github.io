@@ -5,6 +5,14 @@ body  {
   background-size: 300px 100px;
  } 
  
+/* Style the header */
+header {
+  background-color: LavenderBlush;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
   h1 {
   font-family: georgia;
  }
