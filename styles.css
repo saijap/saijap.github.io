@@ -50,13 +50,7 @@ ul {
   font-family: arial;
   font-size: 16px;
   color:black;
-  border-style: groove;
-  border-bottom: 2px solid darkgrey; padding: 5px;
-  border-left: 2px solid darkgrey; padding: 5px;
-  border-right: 2px solid darkgrey; padding: 5px;
-  border-top: 2px solid darkgrey; padding: 5px;
-  width: 300px;
-  }
+    }
 
 a {
   font-family: arial;
