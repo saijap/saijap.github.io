@@ -45,6 +45,7 @@ ul {
   border-right: 2px solid darkgrey; padding: 5px;
   border-top: 2px solid darkgrey; padding: 5px;
   width: 170px;
+  text-align: center; 
 }
 
   p {
