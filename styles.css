@@ -64,6 +64,10 @@ section {
 float: left; 
 }
 
+aside {
+float: right; 
+}
+
 /*Style div */
 
 
@@ -76,6 +80,7 @@ div.seemore {
 
 div.metsäkuvat1 {
 margin-right: 40px;
+margin-left: 25%
 margin-bottom: 20px;
 } 
 
