@@ -41,7 +41,7 @@ ul {
   border-style: groove;
   border-radius: 25px;
   border-bottom: 2px solid darkgrey; padding: 5px;
-  border-left: 2px solid darkgrey; padding: 5px;
+  border-left: 2px solid darkgrey; padding: 10px;
   border-right: 2px solid darkgrey; padding: 5px;
   border-top: 2px solid darkgrey; padding: 5px;
   width: 200px;
