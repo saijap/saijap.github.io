@@ -28,6 +28,10 @@ nav {
 
 #Sijainti
 { background: #80abdf;
+  box-sizing: content-box;  
+  width: 50px;
+  border: 2px;
+  
   }
 
 /* Style the list inside the menu */
