@@ -62,7 +62,8 @@ a {
   }
 
 section {
-float: left; 
+float: left;
+background-color: red; 
 }
 
 aside {
