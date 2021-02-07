@@ -39,7 +39,7 @@ article {
   padding: 20px;
   width: 90%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 80%; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
