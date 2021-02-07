@@ -38,6 +38,7 @@ ul {
   font-size: 20px;
   color:black;
   background-color: #1bbe77;
+  opacity: 0,6;
   border-style: groove;
   border-radius: 25px;
   border-bottom: 2px solid darkgrey; padding: 5px;
