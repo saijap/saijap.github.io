@@ -71,6 +71,7 @@ float: right;
 
 footer {
 position: fixed; 
+clear: both; 
 }
 
 /*Style div */
