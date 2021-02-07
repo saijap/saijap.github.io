@@ -70,7 +70,7 @@ float: right;
 }
 
 footer {
-position: fixed; 
+position: absolute; 
 clear: both; 
 }
 
