@@ -56,3 +56,6 @@ footer {
   text-align: center;
   color: white;
 }
+a:link {
+  color: green;
+  }
