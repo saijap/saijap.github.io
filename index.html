@@ -8,64 +8,34 @@
   <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 
-  
 <body>
-    <!--Otsikko header-div. Appears at the top of every page -->
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
 <header>
-  <h1> Pääkaupunkiseudun ulkoilukohteet </h1>
-    <nav>
-      <a href="index.html">Pääsivu</a>
-      <a href="/second.html">Espoo</a>
-      <a href="/second.html">Helsinki</a>
-      <a href="/second.html">Vantaa</a>
-      <a href="/second.html">Muut lähikohteet</a>
-    </nav>
- </header>
+  <h2>Pääkaupunkiseudun ulkoilukohteet</h2>
+</header>
 
-  <!--Introduction: navigaatio palkki -->
-<main>
-  <p> Pääkaupunkiseudulla on monia luontokohteita, joihin kannattaa tutustua esim. nyt kun liikuntamahdollisuudet ovat rajoitettuja koronan vuoksi.  Tällä sivustolla pyritään kokoamaan tarjonta yhteen.
-  </p>
-
- <section>  
-  <h2> Kaupungit </h2> 
-    <p> Listaukseen on koottu pääkaupunkiseudun eri kaupungeissa olevia kiinnostavia ulkoilukohteita. </p>
+<section>
   <nav>
     <ul>
-      <li><a href="/second.html">Espoo</a></li>
-      <li><a href="/second.html">Helsinki</a></li>
-      <li><a href="/second.html">Vantaa</a></li>
-      <li><a href="/second.html">Muut lähialueen kohteet</a></li>
-   </ul>
+      <li><a href="#">Espoo</a></li>
+      <li><a href="#">Helsinki</a></li>
+      <li><a href="#">Vantaa</a></li>
+    </ul>
   </nav>
+  
+  <article>
+    <h1>Espoo</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
 
-   <h2> Reitinpituus </h2>
-      <p> Ulkoilukohteen voi valita myös siellä tarjolla olevien reittipituuksien mukaan. Kätevää esim. lapsiperheelle tai kokeneemmalle vaeltajalle. </p>
-     <ul>
-        <li> 2 kilometriä</li>
-        <li> 2-5 kilometriä </li>
-        <li> 5-10 kilometriä </li>
-        <li> yli 10 kilometriä </li>
-      </ul>
-  
-  <h2> Kansallispuistot </h2>
-      <p> Jos reissaminen muihin luontokohteisiin kiinnostaa, kannattaa tutustua vaikkapa kansallispuistoihin. Suomessa on yli 40 kansallispuistoa. </p>
-  </section>
-  
-  <div class="metsäkuvat1">
-    <img src="https://kuviasuomesta.fi/wp-content/uploads/2019/03/Kuvia-Suomesta-Roine-Piirainen-4.jpg" alt="Sammalta" width="500" height="333" style="float:right">
-  </div>
-  
-</main> 
-  
-<aside>
-  <h3>Ulkoilu ja terveys<h3>
-    <p>Luonnossa liikkuminen kannattaa: se on ihmisille luontaista ja vähentää riskiä moniin sairauksiin.
-      Lisäksi liikunta on unen ja terveellisen ravinnon ohella keskeinen tekijä palautumisen ja levon kannalta.<p>
- </aside> 
-
- 
- 
+<footer>
+  <p>Footer</p>
+</footer>
 
 </body>
-</html> 
+</html>
