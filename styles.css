@@ -23,7 +23,7 @@ header {
 ul {
  list-style-type: none; 
  margin: 0;
- padding: 0;
+ padding: 5;
  overflow: hidden; 
  font-weight: bold; 
   }
@@ -68,8 +68,7 @@ background-color: red;
 
 aside {
 width: 15%
-padding-left: 15px;
-margin-left: 100px;
+box-sizing: border-box;
 float: right; 
 font-style: italic;
 background-color: blue; 
