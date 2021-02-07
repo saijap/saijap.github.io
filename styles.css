@@ -69,6 +69,10 @@ aside {
 float: right; 
 }
 
+footer {
+position: fixed; 
+}
+
 /*Style div */
 
 
