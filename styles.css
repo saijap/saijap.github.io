@@ -1,137 +1,54 @@
-/*Taustan väri*/
-body  {
- background-color: #dcdcdc;
- background-position: right bottom
- background-repeat: repeat;
- background-size: 200px 100px;
- } 
- 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Style the header */
 header {
-  background-color: #6b6b6b;
-  background-image: url("https://images.pexels.com/photos/675267/pexels-photo-675267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-attachment: fixed; 
-  opacity: 0.6;
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
   padding: 10px;
   text-align: center;
-  font-size: 25px;
-  color: black;
-  height: 150px;
+  color: white;
 }
-
-/*Style navigation pane in header*/
-ul {
- list-style-type: none; 
- margin: 0;
- padding: 5;
- overflow: hidden; 
- font-weight: bold; 
-  }
-
-/*Style headings, paragrahps */
-  h1 {
-  font-family: georgia;
- }
- 
-  h2 {
-  font-family: arial;
-  font-size: 20px;
-  color:black;
-  background-color: #1bbe77;
-  opacity: 0,6;
-  border-style: groove;
-  border-radius: 25px;
-  border-bottom: 2px solid darkgrey; padding: 5px;
-  border-left: 2px solid darkgrey; padding: 20px;
-  border-right: 2px solid darkgrey; padding: 5px;
-  border-top: 2px solid darkgrey; padding: 5px;
-  width: 170px;
-  text-align: center; 
-}
-
-  p, h3 {
-  font-family: arial;
-  font-size: 16px;
-  color:black;
-    }
-
-a {
-  font-family: arial;
-  font-size: 16px;
-  color:black;
-  }
-
-section {
-float: left;
-background-color: red; 
-}
-
-aside {
-box-sizing: border-box;
-float: right; 
-font-style: italic;
-background-color: blue; 
-width; 60px;
-}
-
-footer {
-position: absolute; 
-clear: both; 
-width: 100%
-bottom: 0;
-}
-
-/*Style div */
-
-
-
-div.seemore {
-  position: right;
-  width: 160px;
-  height: 30px;
-  } 
-
-div.metsäkuvat1 {
-margin-right: 40px;
-margin-left: 25%
-margin-bottom: 20px;
-margin-top: 100px;
-} 
-
-/*Navigaatiopalkki
-nav {
-  list-style-type:none
-  float: left;
-  width: 100%;
-  height: 200px; /* only for demonstration, should be removed */
-  background: #15281e;
-  padding: 40px;
-}
-
-
-
-/*Secondhtml css-asetuksia */
-div.metsäkuvat   {
-  position: top right;
-  margin-top:1 em;
-  margint-top: 1 em;
-  margin-left: 200 px;
-  margin-right: 20 px;
-    } 
-
-figcaption {
-  background-color: grey;
-  color: black;
-  font-style: italic;
-  padding: 2px;
-  text-align: left;
-  width:200px; 
-}
-
-#editing-graphics {
-font-family: arial;
-font-size: 16px;
-color:black;
-position: static;
-right: 170px
-} 
