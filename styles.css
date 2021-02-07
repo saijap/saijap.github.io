@@ -5,13 +5,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dcdcdc;
-  background-image:  url("https://images.pexels.com/photos/675267/pexels-photo-675267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  
 }
 
 /* Style the header */
 header {
   background-color: #6b6b6b;
-  background-image: url("https://images.pexels.com/photos/1934846/pexels-photo-1934846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image:  url("https://images.pexels.com/photos/675267/pexels-photo-675267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   opacity: 0.6;
   padding: 30px;
   text-align: center;
