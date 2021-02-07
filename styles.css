@@ -73,7 +73,7 @@ div.Puistot  {
  } 
 
 div.seemore {
-  position: right;
+  position: left;
   width: 160px;
   height: 30px;
   border: 3px double blue;
