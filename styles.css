@@ -26,6 +26,10 @@ nav {
   padding: 20px;
 }
 
+#Sijainti
+{ background: #80abdf;
+  }
+
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
