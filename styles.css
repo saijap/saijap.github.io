@@ -61,15 +61,12 @@ a {
   color:black;
   }
 
-/*Style div */
-
-div.Cities {
+section {
 float: left; 
 }
 
-div.Reitinpituus {
-  float: left;
- } 
+/*Style div */
+
 
 div.Puistot  {
   float: left;
