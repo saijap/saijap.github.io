@@ -56,6 +56,8 @@ footer {
   text-align: center;
   color: white;
 }
+
+/* Style the linkstyle, paragraphs, headings */
 a:link {
   color: green;
   background-color: transparent;
@@ -71,3 +73,7 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+
+  h1 {
+  font-family: georgia;
+    }
