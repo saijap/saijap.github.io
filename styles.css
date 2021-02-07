@@ -58,7 +58,7 @@ footer {
 /* Style the aside */
 aside {
   width: 10%;
-  float: right; 
+  float: left; 
   background-color: red;
   padding: 10px;
   text-align: center;
