@@ -18,6 +18,14 @@ header {
   color: black;
 }
 
+ul {
+ list-style-type: none; 
+ margin: 0;
+ padding: 5;
+ overflow: hidden; 
+ font-weight: bold; 
+  }
+
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
