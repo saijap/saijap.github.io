@@ -20,7 +20,7 @@ header {
 }
 
 /* Create two columns/boxes that floats next to each other */
-nav {
+.sivunavi nav {
   float: left;
   width: 10%;
   background: #5eaa5e;
