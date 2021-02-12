@@ -39,7 +39,7 @@ nav {
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
-  padding: 5;
+  padding: 5px;
   font-weight: bold;
 }
 
