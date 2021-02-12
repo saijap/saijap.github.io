@@ -34,7 +34,7 @@ nav ul {
 }
 
 #tekstit article {
-  float: left;
+  float: none;
   padding: 20px;
   margin-left: 20px; 
   width: 80%;
