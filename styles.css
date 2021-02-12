@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #dcdcdc;
+  background-color: red;
   
 }
 
@@ -46,7 +46,7 @@ nav ul {
   float: left;
   padding: 20px;
   width: 80%;
-  background-color: red;
+  background-color: #dcdcdc;;
  }
 
 
