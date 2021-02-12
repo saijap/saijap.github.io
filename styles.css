@@ -28,12 +28,11 @@ nav {
   margin-top: 70px;
   }
 
-#Sijainti
-{ background: #80abdf;
+#Sijainti {
+ background: #80abdf;
   box-sizing: content-box;  
   width: 100px;
   border: 2px;
-  
   }
 
 /* Style the list inside the menu */
@@ -50,12 +49,7 @@ nav ul {
   background-color: red;
  }
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /* Style the footer */
 footer {
