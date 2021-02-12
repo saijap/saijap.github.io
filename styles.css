@@ -53,12 +53,14 @@ footer {
 
 /* Style the aside */
 aside {
-  width: 10%;
-  float: right; 
   background-color: #5eaa5e;
+  color: white;
+  float: right; 
+  margin-top: 70px;
   padding: 5px;
   text-align: center;
-  color: white;
+  width: 10%;
+ 
 }
 
 /* Style the linkstyle, paragraphs, headings */
