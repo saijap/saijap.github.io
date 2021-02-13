@@ -42,7 +42,7 @@ nav ul {
  }
 
 #paakuva{
-  position: relative; 
+ float: right; 
   padding: 5px;
    }
 
