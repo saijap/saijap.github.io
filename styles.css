@@ -51,6 +51,7 @@ header {
 /* #sijainti */
 section.sijainti { 
   background-color: red;
+  clear:both;
    }
   
 
