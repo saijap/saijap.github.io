@@ -49,8 +49,8 @@ section.eka {
 section.sijainti { 
   background-color: red;
   width: 60%;
-  left: 300px; 
-   }
+     }
+
 section.reitinpituus{ 
   background-color: yellow;
    }
@@ -58,7 +58,7 @@ section.reitinpituus{
   
 #paakuva {
   float: left; 
-  width: 50px;
+  width: 10%;
   padding: 20px;
   margin-top: 40px;
       }
