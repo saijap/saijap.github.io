@@ -1,9 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dcdcdc;
-  background-image: url("https://kuviasuomesta.fi/wp-content/uploads/2019/03/Kuvia-Suomesta-Roine-Piirainen-4.jpg");
-  opacity: 0,3;
- }
+  }
 
 #wrapper {
   background-color: #3290C7;
