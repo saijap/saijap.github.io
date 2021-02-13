@@ -52,6 +52,7 @@ img {
 footer {
   background-color: #6b6b6b;
   padding: 10px;
+  position: static;
   text-align: center;
   color: white;
 }
