@@ -36,6 +36,7 @@ nav ul {
 .main {
   border: 5px solid; 
   float: right;
+  padding: 5px;
   width: 80%;
   background-color: #C73272;
  }
