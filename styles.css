@@ -23,7 +23,7 @@ header {
 /* Create two columns/boxes that floats next to each other */
 .paanavi {
   background: #5eaa5e;
-  border: 3px solid;
+  border: 5px solid;
   float: right;
   padding: 5px;
   margin-left: 2px; 
