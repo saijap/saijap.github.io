@@ -8,7 +8,7 @@ body {
 }
 
 
-/* Style the header */
+/* Headerin tyyli */
 header {
   background-color: #6b6b6b;
   background-image:  url("https://images.pexels.com/photos/675267/pexels-photo-675267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -23,7 +23,7 @@ header {
 /* Create two columns/boxes that floats next to each other */
 
 
-/* Style the list inside the menu */
+/* Navigaatiopalkki */
 .paanavi ul {
   font-weight: bold;
   list-style-type: none;
@@ -40,7 +40,7 @@ header {
   padding: 8px;
    }
 
-
+/* Pääosio */
 .main {
   background-color: #C73272;
   border: 5px solid; 
@@ -48,19 +48,18 @@ header {
   margin-left: 20px;
   padding: 10px;
    }
+/* #sijainti { */
 
+  
 #paakuva {
-  float: right;
+  float: left;
   padding: 20px;
   margin-top: 20px;
   margin-left: 20px;
      }
 
 
-
-
-
-/* Style the footer */
+/* Footerin style */
 footer {
   background-color: #6b6b6b;
   padding: 10px;
@@ -68,7 +67,7 @@ footer {
   color: white;
 }
 
-/* Style the aside */
+/* Aside tyyli */
 aside {
   background-color: #FFFFFF;
   color: black;
