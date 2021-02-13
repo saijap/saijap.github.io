@@ -21,7 +21,7 @@ nav {
   background: #5eaa5e;
   border: 3px solid;
   float: right;
-  padding: 10px;
+  padding: 5px;
   margin-left: 2px; 
   width: 8%;
    }
@@ -43,6 +43,10 @@ nav ul {
   width: 88%
    }
 
+.main img {
+  float: right;
+  padding: 10px; 
+ }
 
 /* Style the footer */
 footer {
