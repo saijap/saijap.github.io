@@ -48,6 +48,7 @@ section.eka {
 
 section.sijainti { 
   background-color: red;
+  width: 50%;
    }
 section.reitinpituus{ 
   background-color: yellow;
