@@ -19,7 +19,7 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
   background: #5eaa5e;
-  border: 5px solid; 
+  border: 3px solid; 
   clear: both;
   float: left;
   padding: 20px;
@@ -30,9 +30,10 @@ nav {
 
 /* Style the list inside the menu */
 nav ul {
+  font-weight: bold;
   list-style-type: none;
   padding: 5px;
-  font-weight: bold;
+  text-align:center
 }
 
 #tekstit article {
