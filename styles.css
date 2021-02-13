@@ -40,7 +40,8 @@ nav ul {
   position: relative; 
   padding: 5px;
   top: 2px;
-  left: 140px;
+  left: 150px;
+  max-width: 300px;
  
  }
 
