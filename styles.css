@@ -49,6 +49,10 @@ header {
   clear: both; 
    }
 /* #sijainti */
+section.eka { 
+  float: right;
+   }
+
 section.sijainti { 
   background-color: red;
    }
