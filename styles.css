@@ -45,7 +45,7 @@ header {
   border: 5px solid; 
   margin-top: 50px;
   margin-left: 20px;
-  position: static;
+  position: relative;
   padding: 10px;
   clear: both; 
    }
