@@ -23,12 +23,12 @@ header {
 /* Create two columns/boxes that floats next to each other */
 .paanavi {
   background: #5eaa5e;
-  border: 5px solid;
+  border: 3px solid;
   float: right;
   padding: 5px;
   margin-left: 2px; 
   margin-bottom: 5px;
-  width: 8%;
+  width: 10%;
    }
 
 
@@ -62,7 +62,7 @@ aside {
   background-color: #5eaa5e;
   color: white;
   float: left; 
-  margin-top: 70px;
+  margin-top: 10px;
   padding: 5px;
   text-align: center;
   width: 10%;
