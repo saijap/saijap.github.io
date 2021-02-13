@@ -71,6 +71,7 @@ aside {
   background-color: #FFFFFF;
   color: black;
   border: 2px solid blue;
+  float: clear;
   margin-top: 10px;
   padding: 5px;
   text-align: center;
