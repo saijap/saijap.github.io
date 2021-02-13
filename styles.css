@@ -36,12 +36,11 @@ nav ul {
 .main {
   background-color: #C73272;
   border: 5px solid; 
-  position: relative; 
+  position: absolute; 
   padding: 5px;
   top: 2px;
   left: 150px;
-  max-width: 1800px;
- 
+  
  }
 
 
