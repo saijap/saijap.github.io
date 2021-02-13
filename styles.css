@@ -48,7 +48,11 @@ header {
   padding: 10px;
   clear: both; 
    }
-/* #sijainti { */
+/* #sijainti */
+section.sijainti { 
+  background-color: red;
+   }
+  
 
   
 #paakuva {
