@@ -68,9 +68,9 @@ footer {
 
 /* Style the aside */
 aside {
-  background-color: #5eaa5e;
-  color: white;
-  float: left; 
+  background-color: #FFFFFF;
+  color: black;
+  border: 2px solid blue;
   margin-top: 10px;
   padding: 5px;
   text-align: center;
