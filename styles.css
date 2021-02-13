@@ -33,12 +33,20 @@ nav ul {
   padding: 5px;
  }
 
+.main {
+  float: right;
+  padding: 20px;
+  margin-left: 100px; 
+  width: 80%;
+  background-color: red;
+ }
+
 .tekstit article {
   float: right;
   padding: 20px;
   margin-left: 100px; 
   width: 80%;
-  background-color: #dcdcdc;;
+  background-color: #dcdcdc;
  }
 
 
