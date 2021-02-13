@@ -3,6 +3,11 @@ body {
   background-color: #dcdcdc;
   
 }
+#wrapper {
+  background-color: #3290C7;
+  
+}
+
 
 /* Style the header */
 header {
