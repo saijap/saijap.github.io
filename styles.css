@@ -61,6 +61,7 @@ clear: both;
  }
   
 #paakuva {
+  float: right; 
   width: 100px;
   height: 79px;
   padding: 20px;
