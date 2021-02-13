@@ -33,7 +33,7 @@ nav ul {
   padding: 5px;
  }
 
-#tekstit article {
+.tekstit article {
   float: right;
   padding: 20px;
   margin-left: 100px; 
