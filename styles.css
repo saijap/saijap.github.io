@@ -60,7 +60,8 @@ clear: both;
  }
   
 #paakuva {
-  float: right; 
+  float: left; 
+  width: 200px;
   padding: 20px;
   margin-top: 40px;
       }
