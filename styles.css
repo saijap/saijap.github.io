@@ -38,14 +38,6 @@ nav ul {
   background-color: red;
  }
 
-.tekstit article {
-  float: right;
-  padding: 20px;
-  margin-left: 100px; 
-  width: 80%;
-  background-color: #dcdcdc;
- }
-
 
 /* Style the footer */
 footer {
