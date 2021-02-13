@@ -53,6 +53,7 @@ header {
   
 #paakuva {
   float: left;
+  width: 400px;
   padding: 20px;
   margin-top: 20px;
   margin-left: 20px;
