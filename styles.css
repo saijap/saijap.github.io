@@ -51,10 +51,10 @@ header {
 /* #sijainti */
 section.sijainti { 
   background-color: red;
-  clear:both;
    }
-  
-
+article { 
+clear: both; 
+ }
   
 #paakuva {
   float: left;
