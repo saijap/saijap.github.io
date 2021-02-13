@@ -41,11 +41,13 @@ nav ul {
   background-color: #C73272;
  }
 
+#paakuva{
+  border: 5px solid; 
+  position: relative; 
+  padding: 5px;
+   }
 
-.main img {
-  float: right;
-  padding: 10px; 
- }
+
 
 /* Style the footer */
 footer {
@@ -69,6 +71,7 @@ aside {
 }
 
 /* Style the linkstyle, paragraphs, headings */
+
 a:link {
   color: green;
   background-color: transparent;
