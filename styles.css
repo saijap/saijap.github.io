@@ -35,10 +35,13 @@ nav ul {
  }
 
 .main {
+  background-color: #C73272;
   border: 5px solid; 
   position: relative; 
   padding: 5px;
-  background-color: #C73272;
+  top: 150px;
+  left: 90px;
+ 
  }
 
 #paakuva{
