@@ -41,6 +41,10 @@ nav ul {
  }
 
 
+img {
+  float: right;
+   }
+
 /* Style the footer */
 footer {
   background-color: #6b6b6b;
