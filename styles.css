@@ -44,6 +44,12 @@ header {
   float: left; 
  }
 
+.paanavi li a {
+  display: block; 
+  padding: 8px;
+   }
+
+
 .main {
   background-color: #C73272;
   border: 5px solid; 
