@@ -7,7 +7,6 @@ body {
   background-color: #3290C7;
 }
 
-
 /* Headerin tyyli */
 header {
   background-color: #6b6b6b;
@@ -17,11 +16,7 @@ header {
   opacity: 0.6;
   padding: 30px;
   text-align: center;
-  
-}
-
-/* Create two columns/boxes that floats next to each other */
-
+  }
 
 /* Navigaatiopalkki */
 .paanavi ul {
@@ -41,7 +36,7 @@ header {
    }
 
 
-/* #sijainti */
+/* #sections */
 section.eka { 
   float: right;
    }
@@ -55,24 +50,7 @@ section.reitinpituus{
   background-color: yellow;
    }
 
-  
-#paakuva {
-  float: left; 
-  width: 10%;
-  padding: 20px;
-  margin-top: 10px;
-      }
-
-
-/* Footerin style */
-footer {
-  background-color: #6b6b6b;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Aside tyyli */
+ /* Aside tyyli */
 aside {
   background-color: #FFFFFF;
   color: black;
@@ -82,12 +60,17 @@ aside {
   padding: 5px;
   text-align: center;
   width: 15%;
-  
- 
+}
+
+/* Footerin style */
+footer {
+  background-color: #6b6b6b;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 
 /* Style the linkstyle, paragraphs, headings */
-
 a:link {
   color: green;
   background-color: transparent;
@@ -104,9 +87,7 @@ a:hover {
   text-decoration: underline;
 }
 
-  h1 {
+h1 {
   font-family: georgia;
-    }
-
-
+   }
 
