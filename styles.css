@@ -34,6 +34,7 @@ nav ul {
  }
 
 .main {
+  padding: right;
   width: 80%;
   background-color: red;
  }
