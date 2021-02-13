@@ -40,14 +40,7 @@ header {
   padding: 8px;
    }
 
-/* Pääosio */
-.main {
-  border: 5px solid; 
-  margin-top: 50px;
-  margin-left: 20px;
-  padding: 10px;
-  clear: both; 
-   }
+
 /* #sijainti */
 section.eka { 
   float: right;
@@ -65,7 +58,7 @@ clear: both;
  }
   
 #paakuva {
-  float: left;
+  float: right;
   width: 100px;
   height: 79px;
   padding: 20px;
