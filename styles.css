@@ -33,10 +33,15 @@ header {
 
 
 /* Style the list inside the menu */
-nav ul {
+.paanavi ul {
   font-weight: bold;
   list-style-type: none;
-  padding: 3px;
+  overflow: hidden;
+  padding: 0;
+  
+ }
+.paanavi li {
+  float: left; 
  }
 
 .main {
