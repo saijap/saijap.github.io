@@ -1,8 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dcdcdc;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   }
-
+  
 #wrapper {
   background-color: #3290C7;
 }
@@ -25,35 +28,34 @@ header {
   list-style-type: none;
   overflow: hidden;
   padding: 0;
-  
- }
+  }
+
 .paanavi li {
   float: left; 
- }
+  }
 
 .paanavi li a {
   display: block; 
   padding: 8px;
-   }
-
+  }
 
 /* #sections */
 section.eka { 
   float: right;
-   }
+  }
 
 section.sijainti { 
   background-color: #c732bd;
   width: 60%;
-     }
+  }
 
 section.reitinpituus{ 
   background-color: yellow;
-   }
+  }
 
 #lisamateriaali {
-background-color: #aaff77;
-    }
+  background-color: #aaff77;
+  }
 
  /* Aside tyyli */
 aside {
@@ -65,7 +67,7 @@ aside {
   padding: 5px;
   text-align: center;
   width: 15%;
-}
+  }
 
 /* Footerin style */
 footer {
@@ -73,26 +75,28 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-}
+  }
 
 /* Style the linkstyle, paragraphs, headings */
 a:link {
   color: green;
   background-color: #666666;
   text-decoration: none;
-}
+  }
+
 a:visited {
   color: blue;
   background-color: transparent;
   text-decoration: none;
-}
+  }
+
 a:hover {
   color: #c732bd;
   background-color: transparent;
   text-decoration: underline;
-}
+  }
 
 h1 {
   font-family: georgia;
-   }
+  }
 
