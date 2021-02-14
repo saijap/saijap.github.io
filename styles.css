@@ -39,20 +39,20 @@ header {
 /* #sections */
 
 #sijainti { 
-  background-color: #c732bd;
+  background-color: #c73290;
   margin-left: 5px;
   padding: 5px;
   width: 60%;
   }
 
 #reitinpituus{ 
-  background-color:	#800040;
+  background-color:	#90c732;
   margin-left: 5px;
   padding: 5px;
   }
 
 #lisamateriaali {
-  background-color: #008000;
+  background-color: #c73290;
   }
 
  /* Aside tyyli */
