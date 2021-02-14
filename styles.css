@@ -110,7 +110,9 @@ section::after {
 
 figure {
   float: right; 
-  overflow: auto; 
+  overflow: auto;
+  top: 25%
+  
     }
 
 article::after {
