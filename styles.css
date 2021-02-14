@@ -38,6 +38,33 @@ header {
   padding: 8px;
   }
 
+/* #thrid_sivun_navigaatio */
+
+.paanavivasen {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+.paanavivasen ul {
+  font-weight: bold;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  }
+.paanavivasen li {
+  float: left; 
+  }
+
+.paanavivasen li a {
+  display: block; 
+  padding: 8px;
+  }
+
+
+
 /* #sections */
 
 #sijainti { 
