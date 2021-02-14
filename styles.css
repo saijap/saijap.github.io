@@ -41,7 +41,7 @@ header {
 /* #thrid_sivun_navigaatio */
 
 .paanavivasen {
-  background-color: #e1cec9;
+  background-color: #c9e1ce;
   border:  2px solid black; 
   float: left;
   height: 500px;
@@ -90,7 +90,7 @@ header {
 
 .kaupunginkohteet{
   float:left; 
-  background-color: #c9e1ce;
+  background-color: #e1cec9;
   border: 2px solid black;
   margin-left: 20px;
   padding: 10px;
