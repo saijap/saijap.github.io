@@ -42,12 +42,13 @@ header {
 
 .paanavivasen {
   background-color: #b58679;
+  border:  2px solid black; 
   float: left;
+  height: 500px;
   margin: 0;
   padding: 2px;
   width: 10%;
-  border:  2px solid black; 
-}
+ }
 
 .paanavivasen ul {
   font-weight: bold;
