@@ -114,8 +114,8 @@ figure {
   top: 25%;
   bottom: 15%;
   right: auto; 
-  
-    }
+  left: 60%;
+     }
 
 article::after {
   content: "";
