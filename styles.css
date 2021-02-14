@@ -109,7 +109,7 @@ section::after {
 }
 
 figure {
-  overflow: auto;
+  overflow: hidden;
   position: absolute;
   top: 30%;
   bottom: 15%;
