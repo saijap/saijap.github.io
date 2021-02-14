@@ -92,7 +92,7 @@ header {
   border: 2px solid black;
   margin-left: 20px;
   padding: 10px;
-  width: 80%;
+  width: 70%;
   height: 500px;
   }
 
@@ -121,6 +121,12 @@ aside {
   width: 15%;
   }
 
+/*Kuvat */
+figure {
+  float:right;
+  width: 400px;
+  height: 500px;
+  }
 /* Footerin style */
 footer {
   background-color: #6b6b6b;
