@@ -95,6 +95,7 @@ header {
   line-height: 1.6;
   margin-left: 0px;
   padding: 30px;
+  position: relative; 
   width: 65%;
   height: 500px;
   }
@@ -129,7 +130,7 @@ figure {
   width: 400px;
   height: 500px;
   margin-top: 20px;
-  position: static;
+  position: absolute;
   top: 10%;
   right: 10%; 
   left: 60%;
