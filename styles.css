@@ -23,7 +23,7 @@ header {
 
 /* Navigaatiopalkki */
 .paanavi ul {
-  background-colour: #000000;
+  background-color: #000000;
   font-weight: bold;
   list-style-type: none;
   overflow: hidden;
