@@ -40,12 +40,14 @@ header {
 
 #sijainti { 
   background-color: #c732bd;
+  margin-left: 5px;
   padding: 5px;
   width: 60%;
   }
 
 #reitinpituus{ 
   background-color:	#800040;
+  margin-left: 5px;
   padding: 5px;
   }
 
