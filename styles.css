@@ -45,7 +45,8 @@ header {
   width: 20%;
   height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .paanavivasen ul {
