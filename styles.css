@@ -100,12 +100,17 @@ header {
   height: 500px;
   }
 
+
 /* Clear floats after the columns */
 section::after {
   content: "";
   display: table;
   clear: both;
 }
+
+figure {
+  float: left; 
+  }
 
 article::after {
   content: "";
