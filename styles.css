@@ -103,6 +103,11 @@ section::after {
   clear: both;
 }
 
+article::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
  /* Aside tyyli */
 aside {
@@ -110,7 +115,7 @@ aside {
   color: black;
   border: 2px solid blue;
   float: right;
-  margin-top: 5px;
+   margin-top: 5px;
   padding: 5px;
   text-align: center;
   width: 15%;
