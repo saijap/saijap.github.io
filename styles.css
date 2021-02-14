@@ -152,13 +152,13 @@ a:link {
   }
 
 a:visited {
-  color: red;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
   }
 
 a:hover {
-  color: #c732bd;
+  color: #ff0000;
   background-color: transparent;
   text-decoration: underline;
   }
