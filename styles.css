@@ -111,7 +111,7 @@ section::after {
 figure {
   overflow: auto;
   position: absolute;
-  top: 25%;
+  top: 30%;
   bottom: 15%;
   right: auto; 
   left: 60%;
