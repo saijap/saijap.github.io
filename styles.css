@@ -109,9 +109,8 @@ section::after {
 }
 
 figure {
-  float: left; 
-  pver
-  }
+  float: right; 
+    }
 
 article::after {
   content: "";
