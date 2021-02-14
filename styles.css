@@ -130,6 +130,7 @@ figure {
   width: 400px;
   height: 500px;
   margin-top: 20px;
+  position: relative;
   }
 /* Footerin style */
 footer {
