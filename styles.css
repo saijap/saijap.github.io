@@ -109,7 +109,7 @@ section::after {
 }
 
 figure {
-  float: right; 
+  float: left; 
   overflow: auto;
   position: absolute;
   top: 25%;
