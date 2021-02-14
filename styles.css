@@ -53,6 +53,7 @@ header {
 
 #lisamateriaali {
   background-color: #c73290;
+  border: 2px solid black;
   margin-left: 20px;
   padding: 10px;
   width: 30%;
