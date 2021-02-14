@@ -95,6 +95,7 @@ header {
   line-height: 1.6;
   margin-left: 0px;
   padding: 30px;
+  text-align: justify; 
   width: 81%;
   height: 500px;
   }
