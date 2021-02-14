@@ -152,7 +152,7 @@ a:link {
   }
 
 a:visited {
-  color: blue;
+  color: red;
   background-color: transparent;
   text-decoration: none;
   }
