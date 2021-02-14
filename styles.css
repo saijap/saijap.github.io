@@ -117,11 +117,6 @@ figure {
   left: 60%;
      }
 
-article::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
  /* Aside tyyli */
 aside {
