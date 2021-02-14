@@ -100,10 +100,6 @@ header {
   height: 500px;
   }
 
-.metsasivukuvat{
-float:left; 
-}
-
 /* Clear floats after the columns */
 section::after {
   content: "";
@@ -136,8 +132,8 @@ figure {
   margin-top: 20px;
   position: absolute;
   top: 25%;
-  right: 10%; 
-  left: 65%;
+  right: auto; 
+  left: auto;
   bottom: 15%;  
   }
 
