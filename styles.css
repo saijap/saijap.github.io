@@ -38,13 +38,13 @@ header {
   padding: 8px;
   }
 
-/* #thrid_sivun_navigaatio */
+/* #ala_sivujen_navigaatio */
 
 .paanavivasen {
   background-color: #8c9d90;
   border:  2px solid black; 
   float: left;
-  height: 550px;
+  height: 600px;
   margin: 0;
   padding: 5px;
   width: 12%;
