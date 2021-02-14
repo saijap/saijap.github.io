@@ -130,8 +130,13 @@ figure {
   width: 400px;
   height: 500px;
   margin-top: 20px;
-  position: absolute;
+  position: static;
+  top: 10%;
+  right: 10%; 
+  left: 60%;
+  bottom: 5%;  
   }
+
 /* Footerin style */
 footer {
   background-color: #6b6b6b;
