@@ -40,16 +40,16 @@ header {
   }
 
 /* #sections */
-section.eka { 
+#eka { 
   float: right;
   }
 
-section.sijainti { 
+#sijainti { 
   background-color: #c732bd;
   width: 60%;
   }
 
-section.reitinpituus{ 
+#reitinpituus{ 
   background-color:	#800040;
   }
 
