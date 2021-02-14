@@ -126,16 +126,7 @@ aside {
   }
 
 /*Kuvat */
-figure {
-  width: 400px;
-  height: 500px;
-  margin-top: 20px;
-  position: absolute;
-  top: 25%;
-  right: auto; 
-  left: 60%;
-  bottom: 15%;  
-  }
+
 
 /* Footerin style */
 footer {
