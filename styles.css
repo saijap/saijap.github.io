@@ -113,6 +113,7 @@ figure {
   position: absolute;
   top: 25%;
   bottom: 15%;
+  right: auto; 
   
     }
 
