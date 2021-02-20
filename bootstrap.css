@@ -1,3 +1,13 @@
+header {
+  background-color: #6b6b6b;
+  background-image:  url("https://images.pexels.com/photos/675267/pexels-photo-675267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  color: black; 
+  font-size: 25px;
+  opacity: 0.6;
+  padding: 30px;
+  text-align: center;
+  }
+
 .row  {
   background-color: #000000;
   color: #FFFFFF; 
