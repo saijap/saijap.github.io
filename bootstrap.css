@@ -5,6 +5,11 @@
    height: 100%;
  }
 
+ul {
+   list-style: none;
+    }
+
+
 .social-icon {
     height: 70px;
     width: 70px;
