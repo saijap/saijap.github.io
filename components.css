@@ -9,3 +9,8 @@ h2 {
 .nav-link {
 color: green;
 }
+
+.card {
+position: absolute;
+}
+
