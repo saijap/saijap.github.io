@@ -6,6 +6,6 @@ h2 {
   color: skyblue;
 }
 
-.nav-link {
-  color: red;
+.navbar-brand {
+font-weight: bold;
 }
