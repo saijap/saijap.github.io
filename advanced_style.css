@@ -1,4 +1,5 @@
 /* Sivun yleinen toiminta */
+/* pienillä laitteilla tapahtuva taustavärin ja tekstinvärin muutos media-query */
 body {
   background-color: greenyellow;
   color: white; 
