@@ -78,6 +78,7 @@ body {
 	background-color: transparent;
 	text-decoration: underline;
 	font-size: 30px;
+	transition: color 0.5s, font-size: 0,5s;   
   }
   
   #uutta {
