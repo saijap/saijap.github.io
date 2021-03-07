@@ -39,6 +39,7 @@ body {
   background: url(huurteinen_puu.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
   }
   
  /*tekstimuotoilut */
