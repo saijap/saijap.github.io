@@ -1,3 +1,4 @@
+/* Taulukko-osuus */
 table {
     border: 5px solid grey;
     border-spacing: 5px;
@@ -7,17 +8,17 @@ table {
    }
 
 td {
-     border-style: solid;
+    border-style: solid;
     font-size: 20px;    
-     padding: 15px;
-     width: 25%;
+    padding: 15px;
+    width: 25%;
 }    
 
 th {
- border-style: solid;    
- font-size: 25px; 
- padding: 15px; 
- width: 25%;
+   border-style: solid;    
+   font-size: 25px; 
+   padding: 15px; 
+   width: 25%;
  }   
 
 caption {
@@ -27,6 +28,7 @@ caption {
    padding: 20px; 
 }
 
+/* Taulukko1:hinnasto */
 .huomautus {
  font-size: 15px;
  background-color: #ecd6a7;
@@ -37,14 +39,13 @@ caption {
   border-color:  #99732e;
   background-color: #ffc04d;
   padding: 30px;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 30px;
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
  }
 
 .taulu1 tr:hover {background-color:#a7c9ec;}
     
-
+/* Taulukko2:rinnetyypit_eka */
 #rinteet {
     background-color:mediumaquamarine;
     border-color: white;
@@ -52,9 +53,7 @@ caption {
     font-size: 40px;
     color: #708090;
     text-align: center;
-    
-   
-    }
+ }
     
 
 .taulu2 {
@@ -62,57 +61,50 @@ caption {
     border-collapse: separate; 
     border-spacing: 10px 20px;  
     padding: 20px; 
-    
-}
+ }
 .taulu2 td{
     border-style: ridge; 
     text-align: center;
-  
-             }   
-
-
-.helpot {
-    color: green;
-}
-
-.helpot:hover {background-color: lightgreen; }
-
-.keskivaikeat
-{
-    color: darkred;
-}
-.keskivaikeat:hover {background-color: red; }
-
-.vaikeat 
-{
-    color: midnightblue;
-}
-.vaikeat:hover {background-color: #666666; }
-
-
-.luokittelu:hover {background-color: white;}
-
+ }   
 
 .luokittelu { 
     font-weight: bold; 
     background-color: mediumaquamarine;
     border-style: dashed;
-    
+ }
 
+.luokittelu:hover {
+ background-color: white;
 }
 
+.helpot {
+    color: green;
+ }
+.helpot:hover {background-color: lightgreen; }
+
+.keskivaikeat{
+    color: darkred;
+ }
+.keskivaikeat:hover {
+    background-color: red; 
+ }
+
+.vaikeat {
+    color: midnightblue;
+ }
+.vaikeat:hover {
+    background-color: #666666;
+ }
+
+/* Taulukko3:rinnetyypit_toka */
 
 .taulu3 { 
     width: 40%;
     border-collapse: collapse;
     border: 1px solid #ddd;
-    
-    }
+}
 
 .taulu3 tr:nth-child(even){background-color: #f2f2f2;}
-
-
-
 
 .luokitus1 {
     background-color: green;
@@ -127,8 +119,9 @@ caption {
     color: white;
 }
 
-input[type=text]
-{
+/* Lomake-osuus */
+/* Laatikoiden säätäminen */
+input[type=text]{
     width: 17%; 
     padding: 3px;
     margin: 8px;
@@ -171,6 +164,7 @@ textarea {
     background-color: whitesmoke; 
 }
 
+/* Lomakkeenosien säätäminen */
 .osat {
     background-color: beige;
     width: 70%;
@@ -186,30 +180,26 @@ select {
   background-color: whitesmoke;
 }
 
-
-legend {
-   font-style: italic;
-   font-size: 20px;
-}
-
-div #yhteystiedot
-{
+#yhteystiedot{
     box-sizing:border-box;
     width: 50%;
     border-style:groove;
     padding: 15px; 
     margin-top: 20px;
-    line-height: 0.9; 
     background-color: beige;
     position: absolute; 
 }
 
 .valinta { 
     text-align: justify;
-    
 }
 
-h1{ Font-size: 40px; 
-    
+/* Tekstityypit yms. */
+legend {
+   font: italic small-caps bold 16px/30px Georgia, serif; 
 }
 
+
+h1 {
+Font-size: 40px; 
+}
