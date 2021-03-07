@@ -1,0 +1,215 @@
+table {
+    border: 5px solid grey;
+    border-spacing: 5px;
+    background-color: lightgray;
+    height: 50%;
+    width: 50%;
+   }
+
+td {
+     border-style: solid;
+    font-size: 20px;    
+     padding: 15px;
+     width: 25%;
+}    
+
+th {
+ border-style: solid;    
+ font-size: 25px; 
+ padding: 15px; 
+ width: 25%;
+ }   
+
+caption {
+   color:  #808080;
+   font-weight: bold; 
+   font-size: 40px;
+   padding: 20px; 
+}
+
+.huomautus {
+ font-size: 15px;
+ background-color: #ecd6a7;
+    }
+
+#hinnasto {
+  border-style: solid;
+  border-color:  #99732e;
+  background-color: #ffc04d;
+  padding: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 30px;
+
+ }
+
+.taulu1 tr:hover {background-color:#a7c9ec;}
+    
+
+#rinteet {
+    background-color:mediumaquamarine;
+    border-color: white;
+    font-family:Georgia, serif;
+    font-size: 40px;
+    color: #708090;
+    text-align: center;
+    
+   
+    }
+    
+
+.taulu2 {
+    border-style: ridge; 
+    border-collapse: separate; 
+    border-spacing: 10px 20px;  
+    padding: 20px; 
+    
+}
+.taulu2 td{
+    border-style: ridge; 
+    text-align: center;
+  
+             }   
+
+
+.helpot {
+    color: green;
+}
+
+.helpot:hover {background-color: lightgreen; }
+
+.keskivaikeat
+{
+    color: darkred;
+}
+.keskivaikeat:hover {background-color: red; }
+
+.vaikeat 
+{
+    color: midnightblue;
+}
+.vaikeat:hover {background-color: #666666; }
+
+
+.luokittelu:hover {background-color: white;}
+
+
+.luokittelu { 
+    font-weight: bold; 
+    background-color: mediumaquamarine;
+    border-style: dashed;
+    
+
+}
+
+
+.taulu3 { 
+    width: 40%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    
+    }
+
+.taulu3 tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+
+.luokitus1 {
+    background-color: green;
+}
+
+.luokitus2 {
+    background-color: red; 
+}
+
+.luokitus3 {
+    background-color: black; 
+    color: white;
+}
+
+input[type=text]
+{
+    width: 17%; 
+    padding: 3px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 8px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=tel]{
+    width: 15%; 
+    padding: 3px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input[type=email]{
+    width: 17%; 
+    padding: 3px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+
+textarea {
+    width: 40%;
+    height: 70px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    background-color: whitesmoke; 
+}
+
+.osat {
+    background-color: beige;
+    width: 70%;
+    padding: 10px;
+
+}
+
+select {
+  width: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: whitesmoke;
+}
+
+
+legend {
+   font-style: italic;
+   font-size: 20px;
+}
+
+div #yhteystiedot
+{
+    box-sizing:border-box;
+    width: 50%;
+    border-style:groove;
+    padding: 15px; 
+    margin-top: 20px;
+    line-height: 0.9; 
+    background-color: beige;
+    position: absolute; 
+}
+
+.valinta { 
+    text-align: justify;
+    
+}
+
+h1{ Font-size: 40px; 
+    
+}
+
