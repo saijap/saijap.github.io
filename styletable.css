@@ -1,7 +1,6 @@
 #wrapper {
-  background-color: #9d908c;
+  background-color:aliceblue;
 }
-
 /* Taulukko-osuus */
 table {
     border: 5px solid grey;
@@ -184,15 +183,7 @@ select {
   background-color: whitesmoke;
 }
 
-#yhteystiedot{
-    box-sizing:border-box;
-    width: 50%;
-    border-style:groove;
-    padding: 15px; 
-    margin-top: 20px;
-    background-color: beige;
-    position: absolute; 
-}
+
 
 .valinta { 
     text-align: justify;
@@ -207,3 +198,4 @@ legend {
 h1 {
 Font-size: 40px; 
 }
+
