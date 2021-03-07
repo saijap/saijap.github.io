@@ -276,11 +276,11 @@
     <h3>Haluan vuokraamon kanta-asiakkaaksi</h3>
    <p>Kanta-asiakkaana voit saada huomattavia etuja! Voit päästä kanta-asiakkaaksi syöttämällä välinevuokraamosta saamasi tilausnumeron.</p>
    <label for="finame">Etunimi</label>
-   <input type="text" id="finame" name="fname"> 
+   <input type="text" id="finame" name="fname" required> 
    <br>
    <br>
    <label for="laname">Sukunimi</label>
-   <input type="text" id="laname" name="lname">
+   <input type="text" id="laname" name="lname" required>
    <br>
     <label for="tilausnro">Tilausnumeroni</label>
    <input type="text" id="tilausnro" name=tilausnro required>
@@ -304,7 +304,7 @@
         <h3>Tilaa hiihtokeskuksen tiedotteet sähköpostitse</h3>
         <p>Uutiskirjeemme ilmestyy noin kerran kuukaudessa. Tilaan tiedotteen sähköpostitse</p>
         <label for="sposti">Email-osoitteesi:</label>
-        <input type="email" id="sposti" name="email">
+        <input type="email" id="sposti" name="email" required>
         <input type="submit" name="submit" value="Tilaa">
         
         <h3>Palautetta hiihtokeskuksen toiminnasta</h3>
@@ -316,13 +316,13 @@
         <input type="checkbox" class="valinta" name="viesti">
         <label for="sposti">Sähköpostitse</label>
         <label for="sposti">e-mail osoitteesi:</label> 
-        <input type="email" name="sposti" required/>
+        <input type="email" name="sposti" required>
         <input type="submit" name="submit" value="Lähetä">
           <br>   
                 
         <input type="checkbox" class="valinta" name="viesti">   
         <label for="puhelin">Puhelimitse (numero ilman väliviivoja)</label>  
-        <input type="tel" id="phone" name="puhelin" required/>
+        <input type="tel" id="phone" name="puhelin" required>
         <input type="submit" name="submit" value="Lähetä">
      </fieldset>
     </form>
