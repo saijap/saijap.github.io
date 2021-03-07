@@ -1,80 +1,82 @@
-/* Sivun yleinen toiminta */
-/* pienillä laitteilla tapahtuva taustavärin ja tekstinvärin muutos media-query */
+/*Sivun yleinen toiminta, pienillä laitteilla tapahtuva taustavärin ja tekstivärin muutos media-query*/
 body {
-  background-color: greenyellow;
-  color: white; 
+ background-color: greenyellow; 
+ color: white; 
 }
 
 @media screen and (min-width: 600px) {
-  body {
-    background-color: aliceblue;
-    color: black; 
-  }
-  
-    
-header {
-  background-color: #6b6b6b;
-  background-image:  url("/sammal-kuviasuomesta.fi-roine-piirainen.jpg");
-  background-size: cover; 
-  text-align: center; 
-  padding: 100px; 
-  }
-    
-#luontokohteet {
-  border: 1px solid;
+	body {
+		background-color: aliceblue; 
+		color: black;
+	}
+}
+ header {
+   background-color: #6b6b6b;
+   background-size: cover; 
+   text-align: center; 
+   padding: 100px; 
+ }
+ 
+ #luontokohteet {
+  border: 1px solid; 
   padding: 10px;
   box-shadow: 5px 10px #80a490;
-  box-sizing: border-box;
-  width: 40%; 
-}
-
-#luontokohteet2 {
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px 20px 5px #80a490 inset;
-  box-sizing: border-box;
-  width: 30%; 
-}
-
-#talvella {
+  box-sizing: border-box; 
+  width: 40%;
+ }  
+ 
+ #luontokohteet2 {
+  border: 1px solid; 
+  padding: 10px; 
+  box-shadow: 5px 10px 20px 5px #80a490 inset; 
+  box-sizing: border-box; 
+  width: 30%;
+  }
+  
+ #talvella {
   border: 2px solid black; 
-  padding: 20px; 
-  background: url(latukuva.jpg);
+  padding: 20px;
+  background: url(https://kuviasuomesta.fi/wp-content/uploads/2020/01/IMG_0493.jpg); 
   background-repeat: no-repeat;
-  background-size: cover; 
-}
-/* Tekstimuotoilut */
-h1 {
-  color: red; 
+  background-size: cover;
+  }
+  
+ /*tekstimuotoilut */
+ h1 {
+  color: red;
   text-shadow: 2px 1px 5px #000000;
   font-size: 80px;
-    
-}
-h2 {
-  text-shadow: 2px 1px blue;
-}
-
-h3 {
+  }
+  
+ h2 {
+ text-shadow: 5px 5px 10px green;
+ }
+ 
+ h3 {
   text-shadow: 5px 5px 10px green;
-}
-
-a:visited {
-  color: red;
-  background-color: transparent;
+  }
+  
+ a:visited {
+  color: red; 
+  background-color: transparent; 
   text-decoration: none;
   }
-
-a:link {
-   font-size: 16px;     
-    color: plum; 
-}
-
-a:hover {
-  color: green;
-  background-color: transparent;
-  text-decoration: underline;
-  font-size: 30px; 
-  transition: color 1s, font-size: 0,5s;      
+  
+ a:link {
+  font-size: 16px;
+  color: plum;
   }
-
-
+  
+  a:hover {
+	color: green;
+	background-color: transparent;
+	text-decoration: underline;
+	font-size: 30px;
+  }
+  
+  #uutta {
+	text-shadow: 4px 4px 10px red;
+	font-size: 30px;
+  }
+  
+  
