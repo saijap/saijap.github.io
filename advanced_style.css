@@ -4,15 +4,13 @@ body {
  color: white; 
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
 	body {
 		background-color: aliceblue; 
 		color: black;
 	}
 }
  header {
-	 
-   background: url(sammal-kuviasuomesta.fi-roine-piirainen.jpg);	 
    background-color: #6b6b6b;
    background-size: cover; 
    text-align: center; 
@@ -38,11 +36,9 @@ body {
  #talvella {
   border: 2px solid black; 
   padding: 20px;
-  background: url(huurteinen_puu.jpg); 
+  background: url(https://kuviasuomesta.fi/wp-content/uploads/2020/01/IMG_0493.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
-  box-sizing: border-box;
-  width: 100%;
   }
   
  /*tekstimuotoilut */
