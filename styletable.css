@@ -1,3 +1,7 @@
+#wrapper {
+  background-color: #9d908c;
+}
+
 /* Taulukko-osuus */
 table {
     border: 5px solid grey;
