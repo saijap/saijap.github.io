@@ -11,22 +11,7 @@ body {
     color: black; 
   }
   
-  #example1 {
-  border: 2px solid black;
-  padding: 25px;
-  background: url(huurteinen_puu.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-#example2 {
-  border: 2px solid black;
-  padding: 25px;
-  background: url(huurteinen_puu.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px 100px;
-}
-  
+    
 header {
   background-color: #6b6b6b;
   background-image:  url("/sammal-kuviasuomesta.fi-roine-piirainen.jpg");
