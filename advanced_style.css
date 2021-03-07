@@ -1,0 +1,51 @@
+#wrapper {
+  background-color:aliceblue;
+}
+
+header {
+  background-color: #6b6b6b;
+  background-image:  url("https://kuviasuomesta.fi/wp-content/uploads/2020/09/sammal-kuviasuomesta.fi-roine-piirainen.jpg");
+  background-size: cover; 
+  text-align: center; 
+  padding: 100px; 
+  }
+    
+#luontokohteet {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #80a490;
+  box-sizing: border-box;
+  width: 40%; 
+}
+
+#luontokohteet2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 20px 5px #80a490 inset;
+  box-sizing: border-box;
+  width: 30%; 
+}
+
+#talvella{
+  border: 2px solid black; 
+  padding: 20px; 
+  background-size: 20px 40px;
+  background: url ("https://d1j0jta72jfise.cloudfront.net/file/dl/c=service_carousel/SC4Hgg/l3CcXDpL1m2V6O1OnISawg/Visit-Espoo_Skiing_Pirttimaki-Oittaa-01_Joni-Viitanen.jpg?t=1614603055626")
+      
+)    
+    
+}
+/* Tekstimuotoilut */
+h1 {
+  color: red; 
+  text-shadow: 2px 1px 5px #000000;
+  font-size: 80px;
+    
+}
+h2 {
+  text-shadow: 2px 1px blue;
+}
+
+h3 {
+  text-shadow: 5px 5px 10px green;
+}
