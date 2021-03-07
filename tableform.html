@@ -11,7 +11,7 @@
  <!-- Taulukko-osuus  -->
    
  <body>
- <div  id="wrapper">   
+<div id="wrapper">   
    <h1>Taulukot</h1>
     <table class=taulu1>
        <caption style="text-align:center">Lippujen hinnat</caption>
@@ -188,7 +188,7 @@
 <!-- Lomakeosio -->
    <h1>Lomakkeet</h1>  
     
-   <!-- Lomake etunimi, sukunimi, puhelinnumero, fieldset, legend -->
+<!-- Lomake etunimi, sukunimi, puhelinnumero, fieldset, legend -->
 <div class="osat">
         <h2>Hiihtokoulu</h2>
         <h3>Ilmoittaudu hiihtokouluun </h3>
@@ -208,7 +208,7 @@
          </fieldset> 
          </form>
       
-         <!-- Pudotusvalikkolomake: select -->
+ <!-- Pudotusvalikkolomake: select -->
      <form action="#" id="monokoko">
        <fieldset>
        <legend>Varustevaraus</legend>
@@ -227,10 +227,8 @@
        
        <input type="checkbox" id="lasit"  name=varusteet value=lasit>
        <label for="lasit">Laskettelulasit</label>
-       
-       <input type="submit" name="submit" value="Lähetä tilaus">  
-       
-       
+      
+             
            
         <p> Varaan seuraavan kokoiset monot: (voit valita useampia kokoja painamalla näppäimistön Ctrl näppäintä): </p>
         <select id="monot" name="monot" form="monokoko" multiple>
@@ -252,7 +250,7 @@
         <option value="45-46">45-46</option>
          <option value="46>">isompi kuin 46</option>
         </select> 
-        <input type="submit" name="submit" value="Lähetä tilaus">   
+        
             
     </fieldset>
     </form>
@@ -265,12 +263,11 @@
          <input type="submit" name="submit" value="Lähetä">
     </fieldset>
     </form>
- 
-
     <br>
     <br>
     <br>
     <br>
+	
 <!-- Kanta-asiakkuus -->
      
 <form action="#" method="post" autocomplete="on"> 
@@ -293,22 +290,24 @@
     
     </fieldset> 
    </form>
-</div>     
+  
+  <br>
+  <br>
   
  <!-- Lomake tekstiboxilla: textarea, checkbox -->
-     
     
 
      <form id="yhteystiedot" name="yhteystiedot" action="#" method="post" autocomplete="on" >
-    
-       <h2>Ota yhteyttä</h2>
+     <h2>Yhteydenotto</h2>
+     <fieldset>
+    <legend>Ota yhteyttä</legend> 
         <h3>Tilaa hiihtokeskuksen tiedotteet sähköpostitse</h3>
         <p>Uutiskirjeemme ilmestyy noin kerran kuukaudessa. Tilaan tiedotteen sähköpostitse</p>
         <label for="sposti">Email-osoitteesi:</label>
         <input type="email" id="sposti" name="email">
         <input type="submit" name="submit" value="Tilaa">
         
-        <h2>Palautetta hiihtokeskuksen toiminnasta</h2>
+        <h3>Palautetta hiihtokeskuksen toiminnasta</h3>
         <p>Haluan antaa palautetta hiihtokeskuksen toiminnasta.Voit lähettää palautetta nimettömänä tai jättää yhteystietosi, niin otamme sinuun yhteyttä.</p>
         <textarea id="palaute" name="palaute" cols="80" rows="4"> </textarea>
         <input type="submit" name="submit" value="Lähetä">
@@ -325,11 +324,11 @@
         <label for="puhelin">Puhelimitse (numero ilman väliviivoja)</label>  
         <input type="tel" id="phone" name="puhelin" required>
         <input type="submit" name="submit" value="Lähetä">
+     </fieldset>
     </form>
     
-    
+ </div>   
 
-</div>    
+</div>       
 </body>
-     
 </html>
