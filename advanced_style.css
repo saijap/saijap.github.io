@@ -88,7 +88,7 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
   font-size: 30px; 
-  transition: color 12, font-size: 0,5s;      
+  transition: color 1s, font-size: 0,5s;      
   }
 
 
