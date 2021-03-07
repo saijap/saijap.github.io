@@ -1,11 +1,11 @@
 /* Sivun yleinen toiminta */
-#wrapper {
-  background-color:aliceblue;
+body {
+  background-color: greenyellow;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   body {
-    background-color: lightgreen;
+    background-color: aliceblue;
   }
   
 header {
@@ -37,9 +37,7 @@ header {
   padding: 20px; 
   background-size: 20px 40px;
   background-image: url ("/huurteinen_puu.jpg");
-      
-)    
-    
+  backgroud-size: auto; 
 }
 /* Tekstimuotoilut */
 h1 {
