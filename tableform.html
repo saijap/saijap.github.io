@@ -8,9 +8,9 @@
       <link rel="stylesheet" type="text/css" href="styletable.css"/>
     </head>
    
-      <!-- Add a table in to  HTML document using table, tr, th ja td elements. Use (colspan/rowspan) to combine cells. Add at least 5 rows and 3 columns of data.  -->
+ <!-- Taulukko-osuus  -->
    
-    <body>
+ <body>
     <table class=taulu1>
        <caption style="text-align:center">Lippujen hinnat</caption>
         <tbody>
@@ -187,7 +187,7 @@
    <h1>Lomakkeet</h1>  
     
    <!-- Lomake etunimi, sukunimi, puhelinnumero, fieldset, legend -->
- <div class="osat">
+<div class="osat">
         <h2>Hiihtokoulu</h2>
         <h3>Ilmoittaudu hiihtokouluun </h3>
       <form id="lomake1" name="lomake" action="#" target="blank" method="post">
@@ -211,20 +211,22 @@
        <fieldset>
        <legend>Varustevaraus</legend>
        <p>Tarvitsen hiihtokouluun varusteet:</p>
-       <input id="sukset" type="checkbox" name=varusteet value=sukset>
+       <input type="checkbox" id="sukset" name=varusteet value=sukset>
        <label for="sukset">Sukset</label>
       
-       <input id="laskettelumonot" type="checkbox" name=varusteet value=laskettelumonot>
+       <input type="checkbox" id="laskettelumonot" name=varusteet value=laskettelumonot>
        <label for="laskettelumonot">Monot</label>
        
-       <input id="sauvat" type="checkbox" name=varusteet value=sauvat>
+       <input type="checkbox" id="sauvat"  name=varusteet value=sauvat>
        <label for="sauvat">Sauvat</label>
        
-       <input id="kypärä" type="checkbox" name=varusteet value=kypärä>
+       <input  type="checkbox" id="kypärä" name=varusteet value=kypärä>
        <label for="kypärä">Kypärä</label>
        
-       <input id="lasit" type="checkbox" name=varusteet value=lasit>
+       <input type="checkbox" id="lasit"  name=varusteet value=lasit>
        <label for="lasit">Laskettelulasit</label>
+       
+       <input type="submit" name="submit" value="Lähetä tilaus">  
        
        
            
@@ -252,27 +254,26 @@
             
     </fieldset>
     </form>
-     <form name="suksivuokraus" action="#" id="pituus" method="post">
+     <form id="pituus" name="suksivuokraus" action="#" method="post">
      <fieldset>
          <label for="laskijanpituus">Pituutesi</label>
          <p>Välinevuokrausta varten tarvitsemme vuokraajan pituuden:</p>
-          <textarea name="pituuskysely" id="laskijanpituus" cols="5" rows="1"> Vuokraajan/vuokraajien pituus on cm:nä:
+          <textarea id="laskijanpituus" name="pituuskysely"  cols="5" rows="1"> Vuokraajan/vuokraajien pituus on cm:nä:
           </textarea>
          <input type="submit" name="submit" value="Lähetä">
     </fieldset>
     </form>
-</div>  
+ 
 
     <br>
     <br>
-    
+    <br>
+    <br>
+<!-- Kanta-asiakkuus -->
      
-    <br>
-    <br>
-    
-   
 <form action="#" method="post" autocomplete="on"> 
-   <fieldset class="osat"> 
+   <fieldset>
+   <legend>Kanta-asiakkuus</legend> 
     <h3>Haluan vuokraamon kanta-asiakkaaksi</h3>
    <p>Kanta-asiakkaana voit saada huomattavia etuja! Voit päästä kanta-asiakkaaksi syöttämällä välinevuokraamosta saamasi tilausnumeron.</p>
    <label for="finame">Etunimi</label>
@@ -284,16 +285,16 @@
    <br>
     <label for="tilausnro">Tilausnumeroni</label>
    <input type="text" id="tilausnro" name=tilausnro required>
-    <input type="submit" value="Haluan kanta-asiakkaaksi" >
+    <input type="submit" name="submit" value="Haluan kanta-asiakkaaksi" >
     </fieldset> 
    </form>
-    
+</div>     
   
-      <!-- Lomake tekstiboxilla: textarea, checkbox -->
+ <!-- Lomake tekstiboxilla: textarea, checkbox -->
      
     
- <div> 
-     <form action="#" method="post" autocomplete="on" id="yhteystiedot">
+
+     <form id="yhteystiedot" name="yhteystiedot" action="#" method="post" autocomplete="on" >
     
        <h2>Ota yhteyttä</h2>
         <h3>Tilaa hiihtokeskuksen tiedotteet sähköpostitse</h3>
@@ -304,17 +305,14 @@
         
         <h2>Palautetta hiihtokeskuksen toiminnasta</h2>
         <p>Haluan antaa palautetta hiihtokeskuksen toiminnasta.Voit lähettää palautetta nimettömänä tai jättää yhteystietosi, niin otamme sinuun yhteyttä.</p>
-        <textarea name="palaute" id="palaute" cols="80" rows="4"> </textarea>
+        <textarea id="palaute" name="palaute" cols="80" rows="4"> </textarea>
         <input type="submit" name="submit" value="Lähetä">
         <p>Haluan vastauksen palautteeseni ja toivon yhteydenottoa:</p>
         
         <input type="checkbox" class="valinta" name="viesti">
         <label for="sposti">Sähköpostitse</label>
-        
         <label for="sposti">e-mail osoitteesi:</label> 
         <input type="email" name="sposti" required/>
-      
-        
         <input type="submit" name="submit" value="Lähetä">
           <br>   
                 
@@ -325,7 +323,7 @@
     </form>
     
     
-</div>
+
     
-    </body>
-    </html>
+</body>
+</html>
