@@ -1,11 +1,13 @@
 /* Sivun yleinen toiminta */
 body {
   background-color: greenyellow;
+  color: white; 
 }
 
 @media screen and (min-width: 600px) {
   body {
     background-color: aliceblue;
+    color: black; 
   }
   
   #example1 {
