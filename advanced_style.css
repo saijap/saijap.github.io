@@ -4,7 +4,7 @@
 
 header {
   background-color: #6b6b6b;
-  background-image:  url("github.com/saijap/saijap.github.io/blob/main/sammal-kuviasuomesta.fi-roine-piirainen.jpg");
+  background-image:  url ("github.com/saijap/saijap.github.io/blob/main/sammal-kuviasuomesta.fi-roine-piirainen.jpg");
   background-size: cover; 
   text-align: center; 
   padding: 100px; 
