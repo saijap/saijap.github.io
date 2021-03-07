@@ -1,7 +1,13 @@
+/* Sivun yleinen toiminta */
 #wrapper {
   background-color:aliceblue;
 }
 
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+  
 header {
   background-color: #6b6b6b;
   background-image:  url("/sammal-kuviasuomesta.fi-roine-piirainen.jpg");
