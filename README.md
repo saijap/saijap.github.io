@@ -1,3 +1,3 @@
 # saijap.github.io
-My first web pages (includes Koha information sources)
+My first web pages
 Assignment: to rehearse how to make web pages
