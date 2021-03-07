@@ -55,7 +55,7 @@ header {
   border: 2px solid black; 
   padding: 20px; 
   background: url(huurteinen_puu.jpg);
-  background-size: auto; 
+  background-size: auto;
 }
 /* Tekstimuotoilut */
 h1 {
