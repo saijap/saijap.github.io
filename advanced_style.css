@@ -35,7 +35,6 @@ header {
 #talvella{
   border: 2px solid black; 
   padding: 20px; 
-  background-size: 20px 40px;
   background-image: url ("/huurteinen_puu.jpg");
   background-size: auto; 
 }
