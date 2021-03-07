@@ -54,7 +54,7 @@ header {
 #talvella{
   border: 2px solid black; 
   padding: 20px; 
-  background: url (huurteinen_puu.jpg);
+  background: url(huurteinen_puu.jpg);
   background-size: auto; 
 }
 /* Tekstimuotoilut */
