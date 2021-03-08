@@ -76,7 +76,9 @@ body {
   margin: 2px 2px;
   opacity: 0.6;
   transition: 1s;
-  border-radius: 8px;	
+  border-radius: 8px;
+  width: 10px;
+  height: 10px;
 }
 
 #onnistui:hover {
@@ -84,18 +86,6 @@ body {
   height: 20px;
 }
 
-.btn {
-  background-color: #f4511e;
-  border: none;
-  color: white;
-  padding: 16px 20px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-  border-radius: 8px;	
-}
 
  /*tekstimuotoilut */
  h1 {
