@@ -23,8 +23,7 @@ body {
   padding: 10px;
   box-shadow: 5px 10px #80a490;
   box-sizing: border-box; 
-  width: 200px;
-  height: 200px; 
+  width: 40%;
  }  
  
  #luontokohteet2 {
@@ -32,28 +31,21 @@ body {
   padding: 10px; 
   box-shadow: 5px 10px 20px 5px #80a490 inset; 
   box-sizing: border-box; 
-  width: 60%;
-  
+  width: 30%;
   }
   
  #talvella {
   border: 2px solid black; 
   padding: 20px;
-  background: url(huurteinen_puu200px.jpg); 
+  background: url(huurteinen_puu.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
-  width: 190px;
-  height: 300px; 
-  float: right;  
-  color: azure; 
+  box-sizing: border-box;
+  width: 50%;
+  height: 150px;
+  color: white; 
   }
-
-.kolmipalstainen {
-    column-count: 3;  
-     
-    }    
-
-
+  
  /*tekstimuotoilut */
  h1 {
   color: red;
