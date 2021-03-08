@@ -75,7 +75,7 @@ body {
   font-size: 12px;
   margin: 2px 2px;
   opacity: 0.6;
-  transition: 1s;
+  transition:  width 2s, height 4s;
   border-radius: 8px;
   width: 10px;
   height: 10px;
