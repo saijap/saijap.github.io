@@ -27,12 +27,14 @@ body {
   height: 170px; 	 
  }  
  
+
  #luontokohteet2 {
   border: 1px solid; 
   padding: 10px; 
   box-shadow: 5px 10px 20px 5px #80a490 inset; 
   box-sizing: border-box; 
   width: 70%;
+  clear: both; 
   }
   
  #talvella {
