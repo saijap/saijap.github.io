@@ -45,7 +45,13 @@ body {
   height: 250px;
   color: white; 
   }
-  
+
+.kolmipalstainen {
+    column-count: 3;  
+     
+    }    
+
+
  /*tekstimuotoilut */
  h1 {
   color: red;
