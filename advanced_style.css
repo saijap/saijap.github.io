@@ -23,7 +23,8 @@ body {
   padding: 10px;
   box-shadow: 5px 10px #80a490;
   box-sizing: border-box; 
-  width: 40%;
+  width: 200px;
+  height: 200px; 
  }  
  
  #luontokohteet2 {
@@ -31,7 +32,8 @@ body {
   padding: 10px; 
   box-shadow: 5px 10px 20px 5px #80a490 inset; 
   box-sizing: border-box; 
-  width: 30%;
+  width: 60%;
+  
   }
   
  #talvella {
