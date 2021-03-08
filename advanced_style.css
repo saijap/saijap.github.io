@@ -101,9 +101,8 @@ body {
   
  a:link {
   font-size: 16px;
-  color: plum;
-  background-color: black;
-  transition: 2s;
+   color: plum;
+   transition: 2s;
   }
   
   a:hover {
