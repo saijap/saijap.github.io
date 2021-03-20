@@ -17,6 +17,11 @@
     text-align: center;
   }
 
+.kohteet {
+    text-align: center;
+    color: red;
+}
+
 .img-responsive {
     font-size: 12px; 
 }
@@ -24,6 +29,7 @@
 .jumbotron text-center{
     background-color: black;
 }
+
 
 .centered {
   position: absolute;
