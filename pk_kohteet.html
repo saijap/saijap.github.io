@@ -1,0 +1,795 @@
+!DOCTYPE html>
+<html lang="fi">
+
+
+<head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title> Saija's main page</title>
+    
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link href="koe4.css" rel="stylesheet" type="text/css">
+    
+    <!-- Fontawesome -->
+   <script src="https://kit.fontawesome.com/4d1d2aa7c3.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Pääkaupunkiseudun ulkoilukohteet</h1>
+  <p>Pääkaupunkiseudun kaupungeissa <a href="#Espoo">Espoossa</a>, <a href="#Helsinki">Helsingissä</a> ja <a href="#Vantaa">Vantaalla</a> on useita luontokohteita. Tarjolla on erilaisia metsätyyppejä, suota, vettä, siltoja, hiidenkirnuja, pitkospuita ja lintutorneja.</p> 
+</div>
+
+<div class="bg-image" 
+ style="background-image: url('https://kuviasuomesta.fi/wp-content/uploads/2020/09/sammal-kuviasuomesta.fi-roine-piirainen.jpg'); height: 70vh; background-size: cover;">
+ <h1>Poimi parhaat</h1>
+</div>  
+
+
+
+<!-- Päänavi fixed-top-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <button></button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://saijap.github.io/index.html">Etusivu <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/saijam/Documents/bootstrap_Espoo">Kohteet</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Retken pituus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Muut kohteet Uudellamaalla</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Espoo</a>
+                    <a class="dropdown-item" href="#">Helsinki</a>
+                    <a class="dropdown-item" href="#">Vantaa</a>
+                     <a class="dropdown-item" href="#">Muut kohteet</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+
+
+<!-- Pääsisältö -->
+<div class="container-fluid">
+<!-- mt-5 margintop pt padding top -->
+ 
+    <div class="wrapper">
+       
+<!-- Accordion: mallia täältä: https://getbootstrap.com/docs/4.6/components/collapse/ -->
+<!-- Espoon kohteet/ -->
+        <div class="row">
+            <div class="col-sm-8">
+               <div class="accordion" id="accordionExample">
+                     <div id="Espoo"><h2>  Espoon kohteet </h2> 
+    <p>Espoossa on kaikkiaan 26 luontopolkua, joista kaupunki ylläpitää yhdeksää.</p>
+    </div>
+                    <div class="card">
+                         <div class="card-header" id="headingTwo">
+                         <h2 class="mb-0">
+                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                         <i class="fas fa-chevron-right">Etelä-Espoo</i>
+                         </button>
+              
+                         </h2>
+                         </div>
+                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                         <div class="card-body">
+                         <h6>Finnoon luontopolku:</h6>
+                             <ul>
+                             <li>pituus: 1,6km</li>
+                             <li>erityistä: kiertää Suomenojan puhdistamon altaan, mahdollisuus tarkkailla kosteikkolinnustoa.</li>
+                             <li>2 lintutornia</li>
+                             <li>mahdollista kiertää lastenvaunuilla</li>
+                            </ul>  
+                         <div class="container">
+                            <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/8cyJFMU6mJRbSknAA" target="_blank">GoogleMaps</a>
+                          </div>
+                     
+                            <br>
+
+                        <h6>Hanikan luontopolku:</h6>
+                        <p><a href="https://www.google.com/maps/place/Hanikan+luontopolku/@60.1290778,24.7150478,13.5z/data=!4m5!3m4!1s0x0:0x68974af7e086937d!8m2!3d60.1291755!4d24.6956663"></a></p>
+                            <ul>
+                            <li>pituus: 5km</li>
+                            <li>erityistä: kallioita,kosteikkoja pitkospuita, lepakoita, lintutorni, muinaishautoja</li>
+                            <li>soveltuu: hyväkuntoisille </li>
+                            <li>palvelut: Suinonsalmen rantakioski</li>
+                            <li>Osoite: Matassaarentie 1, 02380 Espoo</li>
+                            </ul> 
+                    
+                        </div>
+                        <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/nKkEcsNTc69wvthB7" target="_blank">GoogleMaps</a>
+                        </div>
+                        <br>
+                    </div>
+                    </div>
+
+                   
+                   
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fas fa-chevron-right">Pohjois-Espoo</i>
+                            </button>
+                            </h2>
+                        </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <h6>Oittaan luontopolku</h6>
+                                <ul>
+                                    <li>pituus: 1,5km</li>
+                                    <li>helppokulkuinen polku</li>
+                                    <li>erityistä: luonnonsuojelualueella, lähellä uimaranta, vedensäätelysilta, pitkospuita,  portaita loppupään kalliorinteessä</li>
+                                    <li>palvelut: Ravintola ja Ulkoilukeskus Oittaa  (kahvila, wc) </li>
+                                    <li>Osoite: Kunnarlantie 39, 02740 Espoo</li>
+                                    
+                                    </ul> 
+                            <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/3jbkNqmM7nPBA7888" target="_blank">GoogleMaps</a>
+                                </div>
+                            <br>
+                            <h6>Tremannskärrin luontopolku</h6>
+                                <ul>
+                                    <li>pituus: 4,0km</li>
+                                    <li>pituus: 2,8 Tremanskärrin polku tai 3,4km Kurkijärven polku </li>
+                                    <li>erityistä: luonnonsuojelualueella, pitkospuita, suoalueita, osittain reitti kulkee Kalajärven kuntorataa pitkin, Kurkijärven lampi, portaat</li>
+                                    <li>tulenteko, telttailu ja uiminen kielletty</li>
+                                    <li>palvelut: muutamia penkkejä </li>
+                                    <li>Osoite: Vihdintie 65, 02970 Espoo</li>
+                                    
+                                </ul> 
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/WPRizLbwufhWDipW8" target="_blank" >GoogleMaps</a>
+                                </div>
+                            <br>
+                            
+                            <h6>Luukkaan luontopolku</h6>
+                                <ul>
+                                    <li>pituus: 9,0km Seitsemän lammen reitti</li>
+                                    <li>pituus: 6,0 km</li>
+                                    <li>pituus: 2,5 km Golfkentän vierustalla</li>
+                                    <li>erityistä: pieniä lampia, soita, Kaitalammen ja Luukkaan aarnialueet, Luukki on luonnonsuojelualuetta. Liito-oravametsiä</li>
+                                    <li>helppokulkuinen, muutamia mäkiä</li>
+                                    <li>palvelut: Luukkaan kartano (wc, leikkipaikka) , keittokatoksia, telttailupaikkoja, uimapaikkoja  </li>
+                                    <li>Osoite: Luukintie 33, 02970 Espoo</li>
+                                    <a href="https://goo.gl/maps/hqhPKGhsmCa4YvpS6">GoogleMaps</a>
+                                </ul> 
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/hqhPKGhsmCa4YvpS6" target="_blank">GoogleMaps</a>
+                                </div>
+                            <br>
+                            
+                            <h6>Nahkiaispolku</h6>
+                                <ul>
+                                    <li>pituus: 2,0 km </li>
+                                    <li>erityistä: lähtö Haukkalammen luontotuvalta Nuuksiosta, pitkospuita, soita</li>
+                                    <li>nousua, portaita, puunjuuria pitkospuita</li>
+                                    <li>palvelut: Haukkalammen luontotupa (kahvila, wc), vesipiste, roskiset, tilaussauna</li>
+                                    <li>Osoite: Haukkalammentie 32, 02820 Espoo</li>
+                             
+                                </ul> 
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/gECwUfpRpCN1NgeGA" target="_blank">GoogleMaps</a>
+                                </div>
+                            </div> 
+                          </div>
+                        </div>
+
+                   
+                   
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fas fa-chevron-right">Suur-Matinkylä</i>
+                            </button>
+                            </h2>
+                        </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                        <h6>Olarin terveysluontopolku</h6>
+                            <ul>
+                                <li>pituus: 2,4km</li>
+                                <li>erityistä: mahdollisuus kokea luonnon terveyteen positiivisesti vaikuttavia elementtejä. Polkua voi kiertää molempiin suuntiin, eikä rasteja tarvitse kiertää järjestyksessä. Kyltit suomeksi, ruotsiksi, englanniksi</li>
+                                <li>helposti saavutettavissa kävellen, pyöräillen, julkisilla. Ei sovellu liikuntarajoitteisille eikä lastenrattaille (paljon puunjuuria, jonkinverran mäkiä)</li>
+                                <li>piknikpöytiä (ei jätehuoltoa)</li>
+                                <li>Osoite: Ylismäentie, 02210 Espoo</li>
+                            
+                            </ul> 
+                           <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/J8Z6asSgY8GSPdpe6" target="_blank">GoogleMaps</a>
+                                </div> 
+                        </div>
+                      </div> 
+                    </div> 
+
+                   
+                   
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                            <i class="fas fa-chevron-right">Suur-Espoonlahti</i>
+                            </button>
+                            </h2>
+                        </div>
+                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                        <h6>Hannusmetsän luontopolku</h6>
+                            <ul>
+                                <li>pituus: 3,5km. Hannusmetsän lenkki (sininen helppo), Bondaksen kalliot, punainen haastavampi reitti </li>
+                                <li>erityistä: monipuolista luontoa, geologisia kohteita mm. pirunpelto, paikoin vaikeakulkuinen ja sädesäällä hyvin märkä, järvi, Bondasbergen kallio, </li>
+                                <li>Osoite: Hannusmetsä, 02260 Espoo</li>
+                         
+                            </ul> 
+                            <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/fvN8VT1ws5rUPrZh9" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+
+                   
+                   
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            <i class="fas fa-chevron-right">Suur-Tapiola</i>
+                            </button>
+                            </h2>
+                        </div>
+                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                        <h6>Laajalahden luontopolku</h6>
+                            <ul>
+                                <li>pituus: 2,9km</li>
+                                <li>pituus: 0.7 km Villa Elfvikin pihasta lähtevä Luonnon helmassa-luontopolku (tehtäviä ja kierrettävissä myös talvella)</li>
+                                <li>erityistä: lintutorni, johon pääsee myös lastenvaunuilla ja pyörätuolilla, pitkospuupolkuja, kesäisin pitemmältä polulta voi katsella rantaniityllä laiduntavaa karjaa</li>
+                                <li>palvelut: Villa Elfvikin luontotalo (kahvila, wc, huvimaja). Täältä englannikieliä esitteitä.  </li>
+                                <li>Osoite: Villa Elfvik: Elfvikintie 3, 02600 Espoo tai Otaniemi: Konemiehentie 2</li>
+                            
+                            </ul> 
+                            <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/5981eQZtZwz63kPL9" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+
+                   
+                   
+                    <div class="card">
+                        <div class="card-header" id="headingSeven">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                            <i class="fas fa-chevron-right">Vanha-Espoo</i>
+                            </button>
+                            </h2>
+                        </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                        <div class="card-body">
+                        <h6>Keskuspuiston Tikankierros</h6>
+                            <ul>
+                                <li>pituus: 3km</li>
+                                <li>erityistä: paikoin vaikeakulkuinen, kosteilla paikoilla pitkospuita, reitistä voi kulkea myös vain osan, hiidenkirnuja, Mössenkärrin lampi, Rönnängenin niitty</li>
+                                <li>penkkejä Mössenkärrin lammella </li>
+                                <li>Osoite: Riimuniitynpolku 5-7, 02770 Espoo</li>
+                               
+                            </ul>
+                        <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/QoFe5H8sWRPvA81i8" target="_blank">GoogleMaps</a>
+                                </div>
+                        <br>
+                                
+                        <h6>Sorlammen luontopolku</h6>
+                            <ul>
+                                <li>pituus: 5km</li>
+                                <li>erityistä: vaihtelevaa metsämaastoa, luonnonsuojelualueella, jyrkkiä kallioita, purolaaksoja, hiidenkirnuja, Hiidenpesän luola, geologisia kohteita reitin varrella, puiden juuria ja pitkospuita (ei helppokulkuinen). </li>
+                                <li>palvelut: penkkejä, vanha huvimaja </li>
+                                <li>Osoite: Nuuksiontie 30, 02820 Espoo</li>
+                              
+                            </ul> 
+                            <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/8ysfnWzGy6gk1WAU9" target="_blank">GoogleMaps</a>
+                                </div>
+                        <br>
+                        
+                        <h6>Träskändan luontopolku</h6>
+                            <ul>
+                                <li>pituus: 1km, 2 kappaletta</li>
+                                <li>erityistä: vanhassa kartanopuistossa Träskändan kartano , puu- ja pensaslajien esittely kyltein, helppokulkuinen, soveltuu myös lastenvaunuille </li>
+                                <li>Osoite: Träskändan kartano 6, 02940 Espoo</li>
+                            </ul> 
+                        <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/oSptpUXWq6sLVPs37" target="_blank">GoogleMaps</a>
+                                </div>
+                        <br>
+                        
+                        <h6>Glimsinjoen luontopolku</h6>
+                            <ul>
+                                <li>pituus: 2km</li>
+                                <li>erityistä: lähellä Träskändän luontopolkua ja Glmisin talomuseota, jokikävelyreittiä ei ole merkitty maastoon, holvisilta Glmisin talomuseo vanhassa kartanopuistossa Träskändan kartano </li>
+                                <li>Osoite: Träskändan kartano 6, 02940 Espoo tai Glimsintie 1 02740 Espoo</li>
+                              
+                            </ul> 
+                            <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/BvhqK8PVfB9bEZNy7" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                  </div>
+                </div>
+             </div>       
+               
+
+<!-- Helsingin kohteet/ -->
+
+ 
+               <div class="accordion" id="accordionExample">
+
+    <div id="Helsinki"><h2> Helsingin kohteet </h2> 
+        <p>Helsingissä on 12 luontopolkua ja myös merellisiä luontokohteita.</p>
+    </div>
+                                            
+                    <div class="card">                                            
+                        <div class="card-header" id="headingEight">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                            <i class="fas fa-chevron-right">Vuosaari</i>
+                            </button>
+                            </h2>
+                        </div>
+                      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                        <div class="card-body">
+                        <h6>Kallahdenniemen luontopolku</h6>
+                        <p>ks.myös: <a href="https://www.hel.fi/static/ymk/esitteet/kallahti.pdf" target="_blank">Kallahti</a></p>
+                            <ul>
+                                <li>pituus: 300m, mahdollisuus kävellä niemenkärkeen n. 4km</li>
+                                <li>erityistä: sijainti luonnonsuojelualuella (Kallalahden harju ja Kallahdenneimen rantaniitty), huviloita vanhassa kartanopuistossa, harjumaisema </li>
+                                <li>palvelut: Kallahdenniemen uimarannalla kahvila, wc, leikkipuisto, piknikpöytiä, grillauspisteitä</li>
+                                <li>Osoite: Kallahdenniemi, 00980 Helsinki</li>
+                            </ul> 
+
+                        <h6>Uutelan luontopolku</h6>
+                        <p>ks.myös:<a href="https://www.hel.fi/hel2/HKR/esitteet/uutela_fi.pdf">Uutelan esite</a> ja <a href="https://www.hel.fi/helsinki/fi/asuminen-ja-ymparisto/luonto-ja-viheralueet/luontoretket/polut/uutelan-luontopolku/" target="_blank">Uutelan luontopolun reitit</a></p>
+
+                            <ul>
+                                <li>pituus: 2,5 km metsä-ja laidunmaisemakierros, 1,5 km kluuvijärviä ja rantaniitty-kierros</li>
+                                <li>erityistä: Luontopolku kulkee pääasiassa ulkoiluteitä pitkin. Reitti on merkitty maastoon viitoin sekä valkovihrein nauhatunnuksin. Luontopolun varrella on viisitoista rastia, jotka on merkitty maastoon numeroiduin pylväin.Pääosin     helppokulkuinen, jonkin verran vaikeakulkuisempia osioita.  </li>
+                                <li>palvelut: Kahvila Kampela, Skatan tilan Uutelan kota, jonka tulisija käytettävissä viikonloppuisin. Nimeneapajassa ja Nuottaniemessä keittokatokset, omat polttopuut mukaan.</li>
+                                <li>Osoite: Kallahdenniemi, 00980 Helsinki</li>
+                               
+                            </ul> 
+                            <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/jw48J7hdZBDupGmK7" target="_blank">GoogleMaps</a>
+                                </div>
+
+                        </div>
+                  </div>
+                </div>
+
+
+                    <div class="card">   
+                        <div class="card-header" id="headingNine">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                            <i class="fas fa-chevron-right">Haaga</i>
+                            </button>
+                            </h2>
+                        </div>
+                      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Maunulan luontopolku</h6>
+                            <p>ks. myös <a href="https://www.hel.fi/helsinki/fi/asuminen-ja-ymparisto/luonto-ja-viheralueet/luontoretket/polut/maunulan-luontopolut/" target="_blank"></a>Maunulan luontopolun reitit</p>
+                                <ul>
+                                    <li>pituus: 3,3km</li>
+                                    <li>erityistä: reitti kulkee Keskuspuistossa osin ulkoiluteitä.Pääosin helppokulkuinen. </li>
+                                    <li> Tauluissa tekstit ovat suomeksi ja ruotsiksi, QR-koodin kautta pääsee englanninkieliseen versioon.</li>
+                                    <li>palvelut: Maunulan ulkoilumaja: kahvio, wc</li>
+                                    <li>Osoite: Metsäläntie 9, 00620 Helsinki</li>
+                                
+                                </ul> 
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/VkemsYN1ths63ctW6" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                     <div class="card">      
+                        <div class="card-header" id="headingTen">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                            <i class="fas fa-chevron-right">Pasila</i>
+                            </button>
+                            </h2>
+                        </div>   
+                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Laakson runokierros</h6>
+                                <ul>
+                                    <li>pituus: 2,5km</li>
+                                    <li>erityistä: rastiteksti on laadittu japanilaisten haikurunojen muotoon. Pääosin helppokulkuinen, sopii myös lastenvaunujen kanssa liikkumiseen. Lähtee ratsastusstadionilta, Keskuspuiston iso ulkoilureittien verkosto, josta voi valita haluamansa pituuden. </li>
+                                    <li>Osoite: Auroranportti 4, 00250 Helsinki</li>
+                                   
+                                </ul> 
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/q38hsF63ij2tqAdbA" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                     <div class="card">  
+                        <div class="card-header" id="headingEleven">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                                <i class="fas fa-chevron-right">Herttoniemi</i>
+                                </button>
+                            </h2>
+                        </div>
+                      <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Kivinokan luontopolku</h6>
+                            <p>ks. myös <a href="https://www.hel.fi/helsinki/fi/asuminen-ja-ymparisto/luonto-ja-viheralueet/luontoretket/polut/kivinokan-luontopolku/">Kivinokan luontopolun reitit</a> ja <a href="http://kivinokka.fi/visitkivinokka/" target="_blank">Kivinokan alue</a></p>
+                                 <ul>
+                                    <li>pituus: 3oom Puumerkkipolku</li>
+                                    <li>erityistä: sopii liikkumis- ja toimimisesteisille, vaikka paikoin epätasainen ja jyrkkiä kohtia, lintulava. </li>
+                                    <li> Halutessaan polulta voi kulkea syvemmälle metsään kohti Herttoniemen siirtolapuutarhaa.Metsässä hiidenkirnuja</li>
+                                    <li>palvelut: Maunulan ulkoilumaja: kahvio, wc</li>
+                                    <li>Osoite: sijainti kartalla <a href="https://goo.gl/maps/DfqXb38XuDQJcZ2w6" target="_blank">GoogleMaps</a></li>
+                                </ul> 
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/DfqXb38XuDQJcZ2w6" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="card">  
+                        <div class="card-header" id="headingFifteen">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+                            <i class="fas fa-chevron-right">Viikki</i>
+                            </button>
+                            </h2>
+                        </div>
+                      <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Viikin puulajipuisto</h6>
+                            <a href="https://www.hel.fi/helsinki/fi/asuminen-ja-ymparisto/luonto-ja-viheralueet/luontoretket/polut/viikin-luontopolut/" target="_blank">Viikin luontopolut esite</a>
+                                <ul>
+                                    <li>pituus: 3km</li>
+                                    <li>erityistä: puu-ja pensaslajien esittely</li>
+                                    <li>palvelut: polun varrella katettu eväspaikka </li>
+                                    <li>Osoite: Koetilantie 1, 01630 Helsinki</li>
+                                    <p>Ks. myös <a href="https://www2.helsinki.fi/fi/infrastruktuurit/viikin-arboretum" target="_blank">Esite</a></p>
+                                   
+                                </ul>
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/FCLPXPJyq7f8xNz79" target="_blank">GoogleMaps</a>
+                                </div>
+                            <br>
+                            <h6>Pornaistenniemen terveysluontopolku</h6>
+                            <p>ks.myös: <a href="https://vihreatsylit.fi/pornaistenniemen-luontopolku/" target="_blank">Esite terveysluontopolusta</a></p>
+                                <ul>
+                                    <li>pituus: 1km</li>
+                                    <li>erityistä: esteetön, pienet korkeuserot</li>
+                                    <li>Osoite: Matinkaaren silta, 00560 Helsinki</li>
+                                    
+                                </ul>
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/eYq6nMLBQADVR2jK7" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+
+                   
+                    <div class="card">  
+                        <div class="card-header" id="headingSixteen">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+                            <i class="fas fa-chevron-right">Pakila</i>
+                            </button>
+                            </h2>
+                        </div>
+                    <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Haltiavuoren luontopolku</h6>
+                            <a href="https://www.hel.fi/static/hkr/viher/luontopolut/haltialan_luontopolku_web.pdf" target="_blank">Haltialan luontopolut</a>
+                                <ul>
+                                    <li>pituus: 7km</li>
+                                    <li>erityistä: johtaa Vantaan Pitkäkoskelle, jossa taukopaikka. Luontopolku on poistettu käytöstä, huonosti opasteita</li>
+                                    <li>Osoite: Pakilantie 124, 00670 Helsinki</li>
+                                    
+                                </ul>
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/YqNybCx8iiHCAbrVA" target="_blank">GoogleMaps</a>
+                                </div>
+                            <br>
+                            <h6>Metsäpolku Paloheinä</h6>
+                                <ul>
+                                    <li>pituus: 3km</li>
+                                    <li>erityistä: tauluissa kerrotaan Haltialan metsäluonnosta,  pitkospuita</li>
+                                    <li>palvelut: pieni ruokailupaikka,  Paloheinän ulkoilumaja, jossa kahvila</li>
+                                    <li>Osoite: Pakilantie 124, 00670 Helsinki</li>
+                                  
+                                </ul>
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/ocdUCVZsvULodxou6" target="_blank">GoogleMaps</a>
+                                </div>
+                            <br>
+                            <h6>Korpipolku Niskala</h6>
+                                <ul>
+                                    <li>pituus: 1,2km</li>
+                                    <li>erityistä: voit tutustua ennallistettuun metsään, ei sovellu lastenrattailla kuljettavaksi</li>
+                                    <li>palvelut: Pitkäkosken ulkoilumaja, jossa kahvila</li>
+                                    <li>Osoite: Kuninkaantammentie, 00670 Helsinki</li>
+                                </ul>
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/JxV1mZtTQEfwrfxL9" target="_blank">GoogleMaps</a>
+                                </div>
+                            <br>
+                            <h6>Niskalan puulajipuisto</h6>
+                            <p>ks. myös: <a href="https://vihreatsylit.fi/niskala-arboretum/" target="_blank">Esite puulajipuistosta</a></p>
+                                <ul>
+                                    <li>pituus: Jakobinpolku 450m, Kavaleffinkierros 250m</li>
+                                    <li>erityistä: voit tutustua 60 eri lajin lehtipuuhun ja pensaisiin</li>
+                                    <li>Osoite:Kuninkaantammentie, 00690 Helsinki </li>
+                                 </ul>
+                                <div class="container">
+                                   <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/LGf7JjDDpYW36GwRA" target="_blank">GoogleMaps</a>
+                                 </div>
+                    </div>
+                  </div>
+                </div>
+ 
+                               
+                    <div class="card">                  
+                        <div class="card-header" id="headingSeventeen">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link tn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
+                            <i class="fas fa-chevron-right">Ulkosaaret</i>
+                            </button>
+                            </h2>
+                        </div>
+                    <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Pihlajasaaren luontopolku</h6>
+                            <p><a href="https://www.hel.fi/static/liv/2015/pihlajasaarilp.pdf" target="_blank">Luontopolun esite</a></p>
+                                <ul>
+                                    <li>pituus: 2km</li>
+                                    <li>erityistä: saarella oleva luonto/hiekkapolku. Tietoa ja tarinoita saaren historiasta. Vesiliikenneyhteys Merisatamasta ja Ruoholahdesta. Hiekkarantoja.  </li>
+                                    <li>palvelut: 2 kokoushuvilaa, ravintola, kolme keittokatosta, joissa polttopuut ja juomavesi, wc.</li>
+                                    <li>Osoite: Pihlajasaaret, 00150 Helsinki</li>
+                                                            
+                                </ul>
+                                 <div class="container">
+                                   <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/KHnxDsVFrLpFpN8u7" target="_blank">GoogleMaps</a>
+                                 </div>
+                        </div>
+                    </div>
+                    </div>  
+                      
+        
+             </div>         
+             
+                      
+<!-- Vantaan kohteet/ --> 
+
+             <div class="accordion" id="accordionExample">
+                       <div id="Vantaa">  
+                        <h2>  Vantaan kohteet </h2> 
+                        <p>Vantaalla ei ole kovin monta varsinaista opastettua luontopolkua, mutta sen sijaan muita ulkoilualueita. </p>
+                        </div>              
+                
+                    <div class="card">
+                        <div class="card-header" id="headingNineteen">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
+                            <i class="fas fa-chevron-right">Myyrmäki</i>
+                            </button>
+                            </h2>
+                        </div>
+                    <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Soltorpin luontopolku</h6>
+                            <a href="https://www.vantaa.fi/instancedata/prime_product_julkaisu/vantaa/embeds/vantaawwwstructure/141198_Soltorpin_luontopolku_kartta.pdf" target="_blank">Kartta</a>
+                                <ul>
+                                    <li>pituus: 560m</li>
+                                    <li>erityistä: toiminnallinen lasten luontopolku (suunnattu 4-9 vuotiaille).Hyvin helppokulkuinen. </li>
+                                    <li>palvelut: polun varrella katettu eväspaikka </li>
+                                    <li>Osoite: Kesantotie, 01630 Vantaa</li>
+                                </ul>
+                                <div class="container">
+                                     <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/YnDLizoYWH3s8bb7A" target="_blank">GoogleMaps</a>
+                                </div>
+                                <br>
+                            <h6>Mätäojan luontopolku</h6>
+                            <p>Ei varsinainen luontopolku vaan luonnonsuojelualuettta, reitti kulkee kevyen liikenteen väyliä pitkin.</p>
+                            <a href="https://www.vantaa.fi/instancedata/prime_product_julkaisu/vantaa/embeds/vantaawwwstructure/130293_mataojan_luonnonsuojelualue.pdf" target="_blank">Esite</a>
+                        </div>
+                    </div>
+                 </div>
+
+
+
+                     <div class="card">    
+                        <div class="card-header" id="headingTwenty">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
+                            <i class="fas fa-chevron-right">Aviapolis</i>
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <h6>Tammiston luontopolku</h6>
+                            <p><a href="https://www.vantaa.fi/instancedata/prime_product_julkaisu/vantaa/embeds/vantaawwwstructure/118901_tammiston_luonnonsuojelualue_2013.pdf" target="_blank">Tammiston luonnonsuojelualue-esite</a></p>
+                                <ul>
+                                    <li>pituus: 1,5km</li>
+                                    <li>erityistä: luonnosuojelualue, tammimetsää, pieni rengasreitti. </li>
+                                    <li>palvelut: polun varrella katettu eväspaikka </li>
+                                    <li>Osoite: Tilkuntie 12, 01520 Vantaa</li>
+                                </ul>
+                                 <div class="container">
+                                    <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/wqSgvy2JEj1HyAFDA" target="_blank">GoogleMaps</a>
+                                </div>
+                                <br>
+
+                            <h6>Pitkäkosken luonnonsuojelualue</h6>
+                                <ul>
+                                    <li>pituus: 1,7km</li>
+                                    <li>erityistä: Vantaanjoen rannassa, pöytä ja penkki, muutama taukopaikka, portaita, luonnosuojelualue, tammimetsää, pieni rengasreitti. </li>
+                                    <li>palvelut: polun varrella katettu eväspaikka </li>
+                                    <li>Osoite: Jokitie, 01690 Vantaa tai Pitkäkosken ulkoilumajalta Kuninkaantammentie 19, 00430 Helsinki</li>
+                                </ul>
+                                <div class="container">
+                                    <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/xR11ShGVojjWBu3r8" target="_blank">GoogleMaps</a>
+                                </div>
+                                <br>
+        
+                            <h6>Vantaakosken luontopolku</h6>
+                                
+                                <ul>
+                                    <li>pituus: 1,0km</li>
+                                    <li>erityistä: vanhan Viilatehtaan vieressä, silta, laitureita, portaita, levähdys- ja näköalapaikkoja, koskia. Rannalla kalastus- ja ongintapaikkoja. </li>
+                                    <li>palvelut: polun varrella katettu eväspaikka </li>
+                                    <li>Osoite: Kuninkaantie 28, 01740 Vantaa</li>
+                                </ul>
+                               <div class="container">
+                                    <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/kynosY8q1MbdVZqn7" target="_blank">GoogleMaps</a>
+                                </div>
+                        </div>
+                    </div>
+                    </div>
+    
+                    
+                    <div class="card">                                                      
+                        <div class="card-header" id="headingTwentyone">
+                            <h2 class="mb-0">
+                            <button class="btn btn-block btn-link text-left" type="button" data-toggle="collapse" data-target="#collapseTwentyone" aria-expanded="true" aria-controls="collapseTwentyone">
+                            <i class="fas fa-chevron-right">Tikkurila</i>
+                            </button>
+                            </h2>
+                        </div>
+                    <div id="collapseTwentyone" class="collapse" aria-labelledby="headingTwentyone" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h6>Kalkkikallio</h6>
+                                <ul>
+                                    <li>pituus: 1,5km</li>
+                                    <li>erityistä: kalkkikallio kohoaa lähes 65metriä merenpinnan yläpuolelle, jonka laelle luontopolku johtaa. Hyvä hiekkapolku, myös pitkospuita. </li>
+                                    <li>Osoite: Kalkkivuorentie 41, 01380 Vantaa</li>
+                                </ul>
+                                <div class="container">
+                                    <button type="button" class="btn btn-sm btn-secondary button1" <a href="https://goo.gl/maps/juvJSheiviAM2zsb6" target="_blank">GoogleMaps</a>
+                                </div>
+                              
+                        </div>
+                    </div>  
+                    </div> 
+            
+        </div>      
+               
+     
+         
+        
+    </div>          
+ 
+       <div class="col-sm-4">
+       <div class="card" id="kansallispuisto">
+            <h2>Kansallispuistot</h2>
+            <img src="metsajarvi-kuviasuomesta.fi-roine-piirainen-scaled.jpg" alt="metsäjärvi" width=450px; height=300px; >
+            <h4>Mikä on kansallispuisto?</h4>
+            <figure>
+            <blockquote cite="https://www.luontoon.fi/retkeilynabc/mikaonkansallispuisto"><p>Kansallispuistojen tarkoitus on vaalia maamme hienoimpia luontokohteita ja niiden monimuotoisuutta. Sen lisäksi tavoitteena on edistää luontoharrastusta, tutkimusta sekä luonnon virkistyskäyttöä. Kansallispuistot sijaitsevat valtion omistamilla alueilla ja niiden hoidosta vastaa Metsähallituksen Luontopalvelut. Yhteistä kaikille suomalaisille kansallispuistoille on se, ettei niihin peritä pääsymaksua. Ne ovat aina avoinna, ja niihin ovat tervetulleita kaikki. Kävijöiltä odotetaan vain luonnon ja toisten kulkijoiden kunnioittamista sekä sääntöjen noudattamista.</p></blockquote></figure>
+            <h4>Pääkaupunkiseudun kansallispuistot</h4>
+            <p>Pääkaupunkiseudulla on myös kansallispuistoja, joissa voi patikoida, retkeillä, marjastaa, sienestää, uida, kalastaa ja jopa yöpyä . </p>
+            
+            <p>Tutustu <a href="https://www.luontoon.fi/nuuksio">Nuuksion kansallispuistoon</a> sekä <a href="https://www.luontoon.fi/sipoonkorpi">Sipoonkorven kansallispuistoon!</a></p>
+        </div>   
+         </div>
+         
+     </div> 
+    </div>                  
+</div>             
+            
+  
+            
+           
+        
+  
+
+
+<!-- Footer -->
+<footer>
+<div class="jumbotron text-center" style="margin-bottom:0"> 
+    <p><span>&copy; Copyright 2021</span></p>
+</div>    
+</footer>  
+<!-- Tämä liittyy accordioniin;https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion
+ -->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
