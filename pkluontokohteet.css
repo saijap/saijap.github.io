@@ -81,6 +81,13 @@
     heigth: 850px; 
 }
 
+#linkkeja {
+    border: 1px solid #b2c5b8; 
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
 /*kohteet pääkuva*/
 .bg-image {
     background-repeat:no-repeat; 
