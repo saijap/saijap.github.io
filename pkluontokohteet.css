@@ -118,6 +118,7 @@ video {
 #sivuboxi {
     background-color: #d9e3d5 ;
     border: 1px solid #b2c5b8;
+    height: 900px;
 }
 
 #nuotio {
@@ -162,6 +163,8 @@ blockquote p {
     border-radius: 5px;
 }
 
-.tab-pane
-{ border:solid 1px blue;  border-top: 0;    }
+.tab-pane { 
+   border:solid 1px #b2c5b8;
+    border-top: 0;
+}
 
