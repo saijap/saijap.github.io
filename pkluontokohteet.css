@@ -126,13 +126,28 @@ video {
 }
 /*End_Yksittäiset_id:t*/
 
-
+/*Teksityypit yms. muotoilut*/
 
 .btn-link
 {
     color: #50513f	;
 }
 
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 
 /*mukailtu täältä: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote*/
 blockquote {
@@ -140,16 +155,10 @@ blockquote {
     font-style:italic;
 }
 
-
 blockquote p {
     padding: 15px;
     background: #eee;
     border-radius: 5px;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
 }
 
 
