@@ -72,10 +72,7 @@
     background-color: #d9e3d5 ;
 }
  
-.active, .navbar-nav:hover {
-  background-color: #ccc; 
-  text-decoration: underline;
-}
+
 
 
 .container {
