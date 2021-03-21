@@ -6,13 +6,35 @@
     text-align: right;  
 }
 
-/*kuvat pääsivulla*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: ghostwhite; 
+}
+
+/*thumbnailkuvat*/
 .thumbnail img {
   border-radius: 6px;
   height:200px; 
   width:250px;    
 }
 
+.img-responsive {
+    font-size: 12px; 
+}
+
+/*kohteet pääkuva*/
+.bg-image {
+    background-repeat:no-repeat; 
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px; 
+ 
+        
+}
 #kohdevalinta {
     text-align: center;
   }
@@ -22,22 +44,13 @@
     color: red;
 }
 
-.img-responsive {
-    font-size: 12px; 
-}
 
 .jumbotron text-center{
     background-color: black;
 }
 
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: ghostwhite; 
-}
+
 
 /*accordion_kohteet sivulla*/
 .accordion {
@@ -69,9 +82,21 @@
     padding-top: 120px;
 
 }
+/*End_accordion*/
 
+/*video*/
+video {
+  max-width: 100%;
+  height: auto;
+}
 
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/*End-video*/
+
+/*Yksittäiset_id:t*/
 
 #kansallispuisto {
     border: 1px solid #b2c5b8; 
@@ -88,16 +113,20 @@
     margin-top: 10px;
 }
 
-/*kohteet pääkuva*/
-.bg-image {
-    background-repeat:no-repeat; 
-    color:white;
-    font-size: 20px;
-    text-align: center;
-    padding: 100px; 
- 
-        
+
+#sivuboxi {
+    background-color: #d9e3d5 ;
+    border: 1px solid #b2c5b8;
 }
+
+#nuotio {
+    margin-top: 20px; 
+    left: 10px;
+    
+}
+/*End_Yksittäiset_id:t*/
+
+
 
 .btn-link
 {
@@ -122,3 +151,5 @@ blockquote p {
   max-width: 100%;
   height: auto;
 }
+
+
