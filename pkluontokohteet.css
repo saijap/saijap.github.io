@@ -80,7 +80,7 @@
 
 .container {
     width: 100%; 
-    padding-top: 60px;
+    padding-top: 40px;
 
 }
 /*End_accordion*/
@@ -175,6 +175,3 @@ blockquote p {
     
 }
 
-.asteikko {
-    padding: 20px; 
-}
