@@ -74,6 +74,7 @@
  
 .active, .navbar-nav:hover {
   background-color: #ccc; 
+  text-decoration: underline;
 }
 
 
