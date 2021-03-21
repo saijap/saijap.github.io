@@ -75,8 +75,8 @@
     background-color: #d9e3d5 ;
 }
  
-.active, .navbar:hover {
-  background-color: #b2c5b8	; 
+.active, .navbar-nav:hover {
+  background-color: #d9e3d5; 
 }
 
 
