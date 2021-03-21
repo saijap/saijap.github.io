@@ -164,6 +164,7 @@ blockquote p {
 .tab-pane { 
    border:solid 1px #b2c5b8;
    border-top: 0;
+   background-color: #d9e3d5  
 }
 
 .tab-content {
@@ -172,3 +173,4 @@ blockquote p {
     
 }
 
+    
