@@ -168,3 +168,9 @@ blockquote p {
     border-top: 0;
 }
 
+.tab-content {
+    border-top: 0;
+    margin-top: 5px;
+    
+}
+
