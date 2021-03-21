@@ -162,4 +162,6 @@ blockquote p {
     border-radius: 5px;
 }
 
+.tab-pane
+{ border:solid 1px blue;  border-top: 0;    }
 
