@@ -119,6 +119,7 @@ video {
     background-color: #d9e3d5 ;
     border: 1px solid #b2c5b8;
     height: 600px;
+    margin-top: 60px; 
 }
 
 #nuotio {
@@ -165,7 +166,7 @@ blockquote p {
 
 .tab-pane { 
    border:solid 1px #b2c5b8;
-    border-top: 0;
+   border-top: 0;
 }
 
 .tab-content {
