@@ -32,12 +32,13 @@
     font-size: 20px;
     text-align: center;
     padding: 100px; 
- 
         
 }
+
 #kohdevalinta {
     text-align: center;
-  }
+    margin-bottom: 20px; 
+     }
 
 
 .jumbotron text-center{
