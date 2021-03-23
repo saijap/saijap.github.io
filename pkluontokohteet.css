@@ -198,6 +198,15 @@ blockquote p {
 .luontopolut {
     padding-top: 40px; 
 }
+.muutkohteet {
+box-sizing: border-box;
+    width: 300px;
+    height: 1300px; 
+    padding: 10px; 
+    border: 1px solid black;
+    margin-bottom: 10px; 
+}
+    
 
 /* Tabit_lyhyetkohteetsivulla */
 .tab {
