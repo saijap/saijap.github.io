@@ -1,7 +1,7 @@
 /*karuselli pääsivulla*/
 .carousel-caption {
     color: ghostwhite;
-    text-decoration-style: wavy
+    text-decoration-style: wavy;
     caption-side: top; 
     text-align: right;  
 }
@@ -102,7 +102,7 @@ video {
     padding: 20px;
     margin-left: 5px;
     margin-top: 10px;
-    heigth: 850px; 
+    height: 850px; 
 }
 
 #linkkeja {
@@ -220,7 +220,7 @@ box-sizing: border-box;
   background-color: #d9e3d5;
   float: left;
   border: solid 1px;
-  border-radius: 8px
+  border-radius: 8px;
   outline: none;
   cursor: pointer;
   text-decoration: inherit;   
